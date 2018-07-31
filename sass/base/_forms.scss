@@ -6,7 +6,7 @@ label{cursor: pointer;}
 	margin-bottom: $pad-xs;
 	padding: 13px 20px;
 	font-family: $font;
-	font-size: 14px;
+	font-size: 16px;
 	color: $blue;
 	line-height: 1.3; 
 	border: 1px solid #dbdbde;
@@ -15,9 +15,6 @@ label{cursor: pointer;}
 	transition: all 0.3s ease;
 	-webkit-appearance: none;
 	font-weight: bold;
-	@include res(l) {
-		font-size: 16px;
-	}
 	@include res(s){
 		margin-bottom: 15px;
 	}
