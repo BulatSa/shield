@@ -40,30 +40,6 @@
 		<a href="https://yandex.ru/map-widget/v1/-/CBQneLhsOA" class="fancy-map btn" data-type="iframe">схема проезда</a>
 
 
-		<div class="row-big">
-			<div class="grid-3">
-				<div class="block">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-				</div>
-			</div>
-			<div class="grid-3">
-				<div class="block">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-				</div>
-			</div>
-			<div class="grid-3">
-				<div class="block">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-				</div>
-			</div>
-			<div class="grid-3">
-				<div class="block">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-				</div>
-			</div>
-		</div>
-
-
 
 	</div>
 </section>
