@@ -23,6 +23,15 @@
 			<li>Экстренная помощь MIG</li>
 		</ol>
 
+		<div class="row-big">
+			<div class="grid-6">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
+			</div>
+			<div class="grid-6">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
+			</div>
+		</div>
+
 		<a href="#" class="fancy-modal btn" data-src="#modal-order">Открыть order</a>
 		<a href="img/img.png" class="fancy btn" data-fancybox="1">Открыть img</a>
 		<a href="img/img.png" class="fancy btn" data-fancybox="1">Открыть img</a>

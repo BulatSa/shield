@@ -8,8 +8,9 @@ $breakpoints: (
 	'xxs': (max-width: 375px),
 );
 
-$font: Segoe Ui, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+$font: 'Geometria', 'Helvetica Neue', Arial, sans-serif;
 
-$container_width: 1000px;
+$container_width: 1240px;
 
-$gutter: 12px;
+$gutter: 10px;
+$gutter-big: 25px;
