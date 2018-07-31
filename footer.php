@@ -5,9 +5,10 @@
 		<p>Заказать обратный звонок</p>
 		<p>Оставьте заявку и наш администратор свяжется с&nbsp;Вами в течение 10 минут</p>
 		<form class="ajax-form">
-			<input type="text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя" class="text-input" >
-			<input type="email" name="user_email" placeholder="Введите e-mail*" data-label="Email" class="text-input" data-req="true">
-			<input type="tel" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  class="text-input" data-req="true">
+			<input type="text" class="input-text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя">
+			<input type="email" class="input-text" name="user_email" placeholder="Введите e-mail*" data-label="Email" data-req="true">
+			<input type="tel" class="input-text" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  data-req="true">
+			<textarea class="input-textarea" name="user_comment" placeholder="Введите комментарий" data-label="Комментарий"></textarea>
 			<input type="file" name="user_file" data-label="Файл">
 			<input type="hidden" value="Новая заявка" name="form_subject">
 			<button type="submit" class="btn">Отправить</button>
