@@ -25,9 +25,6 @@ label{cursor: pointer;}
 		color: $color-text;
 		opacity: 1;
 		transition: all 0.3s ease;
-		@include res(l) {
-			font-size: 14px;
-		}
 	}
 
 	&:hover{
