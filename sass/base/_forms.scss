@@ -1,7 +1,7 @@
 label{cursor: pointer;}
 
 .input-text, .input-textarea {
-	display: inline-block;
+	display: block;
 	width: 100%;
 	margin-bottom: $pad-xs;
 	padding: 12px 25px 14px;
@@ -197,5 +197,10 @@ label{cursor: pointer;}
 	a {
 		color: $blue;
 		text-decoration: underline;
+		transition: color 0.3s ease;
+
+		&:hover{
+			color: $orange;
+		}
 	}
 }

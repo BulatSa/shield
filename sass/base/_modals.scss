@@ -30,7 +30,8 @@
 		margin-top: 10px;
 	}
 
-	.input-text{
+	.input-text,.input-textarea{
+		display: block;
 		margin-bottom: 15px;
 		@include res(s){
 			margin-bottom: 10px;
