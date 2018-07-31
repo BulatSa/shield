@@ -4,9 +4,9 @@ label{cursor: pointer;}
 	display: block;
 	width: 100%;
 	margin-bottom: $pad-xs;
-	padding: 12px 25px 14px;
+	padding: 13px 20px;
 	font-family: $font;
-	font-size: 14px;
+	font-size: 16px;
 	color: $blue;
 	line-height: 1.3; 
 	border: 1px solid #dbdbde;
@@ -15,15 +15,8 @@ label{cursor: pointer;}
 	transition: all 0.3s ease;
 	-webkit-appearance: none;
 	font-weight: bold;
-	@include res(xl) {
-		padding: 10px 20px 12px;
-	}
-	@include res(l) {
-		font-size: 16px;
-	}
-	@include res(s) {
-		margin-bottom: $pad-xxs;
-		padding: 8px 13px 10px;
+	@include res(s){
+		margin-bottom: 15px;
 	}
 
 	&::placeholder {
@@ -32,9 +25,6 @@ label{cursor: pointer;}
 		color: $color-text;
 		opacity: 1;
 		transition: all 0.3s ease;
-		@include res(l) {
-			font-size: 16px;
-		}
 	}
 
 	&:hover{
@@ -71,8 +61,11 @@ label{cursor: pointer;}
 	display: block;
 	position: relative;
 	cursor: pointer;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	font-size: 12px;
+	@include res(s){
+		margin-bottom: 15px;
+	}
 
 	input{
 		opacity: 0;
@@ -133,11 +126,13 @@ label{cursor: pointer;}
 	position: relative;
 	display: block;
 	margin-top: 0;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	cursor: pointer;
 	font-size: 12px;
+	transform: translate3d(0,0,0);
 	@include res(s) {
 		font-size: 10px;
+		margin-bottom: 15px;
 	}
 	input {
 		opacity: 0;
@@ -157,8 +152,8 @@ label{cursor: pointer;}
 		&.error {
 			&+span {
 				&:before {
-					background: #f81242;
-					box-shadow: 0 0 20px 0 rgba(255, 35, 0, 0.6);
+					box-shadow: 0 0 0 2px #ffabab, 0 2px 4px 0 rgba(123, 0, 0, 0.31);
+					background: #ffe4e4;
 				}
 			}
 		}
@@ -181,6 +176,7 @@ label{cursor: pointer;}
 			top: 3px;
 			transition: all 0.3s ease;
 			background: #b4b4b4;
+			transform: translate3d(0,0,0);
 		}
 		&:after {
 			content: '';

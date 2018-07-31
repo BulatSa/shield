@@ -12,7 +12,7 @@
 	<![endif]-->
 
 
-	<title>Шаблон проекта</title>
+	<title>Щит и меч</title>
 
 	<!-- favocons -->
 	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon.png">
@@ -26,7 +26,7 @@
 	<!-- favocons -->
 
 	<!-- og -->
-	<meta property="og:title" content="Шаблон проекта">
+	<meta property="og:title" content="Щит и меч">
 	<meta property="og:description" content="Описание проекта">
 	<meta property="og:type" content="website">
 	<meta property="og:image" content="/img/og.jpg">
