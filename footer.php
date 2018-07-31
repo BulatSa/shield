@@ -2,13 +2,13 @@
 <div class="modals-sec">
 
 	<div id="modal-order" class="modal">
-		<p class="h4 modal__title">Оставить заявку</p>
+		<p class="h4 modal__title">Оставить <span class="blue">заявку</span></p>
 		<p class="modal__descr">Оставьте заявку и&nbsp;наш администратор свяжется с&nbsp;Вами в&nbsp;течение 10&nbsp;минут</p>
 		<form class="ajax-form">
 			<input type="hidden" value="Новая заявка" name="form_subject">
-			<input type="text" class="input-text" name="user_name" placeholder="Введите имя" data-label="Имя пользователя">
-			<input type="email" class="input-text" name="user_email" placeholder="Введите e-mail*" data-label="Email" data-req="true">
-			<input type="tel" class="input-text" name="user_tel" placeholder="Введите телефон*" data-label="Телефон"  data-req="true">
+			<input type="text" class="input-text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
+			<input type="tel" class="input-text" name="user_tel" placeholder="Телефон | Для оценки дела*" data-label="Телефон"  data-req="true">
+			<input type="email" class="input-text" name="user_email" placeholder="E-mail | Для отправки документов*" data-label="Email" data-req="true">
 			<textarea class="input-textarea" name="user_comment" placeholder="Введите комментарий" data-label="Комментарий"></textarea>
 			<button type="submit" class="btn">Отправить</button>
 			<label class="style-check-ios">
