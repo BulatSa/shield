@@ -10,11 +10,11 @@
 			<input type="tel" class="input-text" name="user_tel" placeholder="Телефон | Для оценки дела*" data-label="Телефон"  data-req="true">
 			<input type="email" class="input-text" name="user_email" placeholder="E-mail | Для отправки документов*" data-label="Email" data-req="true">
 			<textarea class="input-textarea" name="user_comment" placeholder="Введите комментарий" data-label="Комментарий"></textarea>
-			<button type="submit" class="btn">Отправить</button>
 			<label class="style-check-ios">
 				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
 				<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
 			</label>
+			<button type="submit" class="btn">Отправить</button>
 		</form>
 	</div>
 
