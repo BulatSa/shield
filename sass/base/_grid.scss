@@ -67,17 +67,25 @@
 	flex-wrap: wrap;
 	margin-left: -$gutter-big;
 	margin-right: -$gutter-big;
+	@include res(l){
+		margin-left: -15px;
+		margin-right: -15px;
+	}
 	@include res(s){
-		margin-left: -20px;
-		margin-right: -20px;
+		margin-left: -$gutter;
+		margin-right: -$gutter;
 	}
 
 	[class^="grid"]{
 		padding-left: $gutter-big;
 		padding-right: $gutter-big;
+		@include res(l){
+			padding-left: 15px;
+			padding-right: 15px;
+		}
 		@include res(s){
-			padding-left: 20px;
-			padding-right: 20px;
+			padding-left: $gutter;
+			padding-right: $gutter;
 		}
 	}
 

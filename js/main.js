@@ -153,6 +153,19 @@ function init_fancy__video() {
 			controls: 1,
 			showinfo: 0,
 			autoplay: 1
+		},
+		lang : 'ru',
+		i18n : {
+			'ru' : {
+				CLOSE       : 'Закрыть',
+				NEXT        : 'Дальше',
+				PREV        : 'Назад',
+				ERROR       : 'Не удается загрузить. <br/> Попробуйте позднее.',
+				PLAY_START  : 'Начать слайдшоу',
+				PLAY_STOP   : 'Остановить слайдшоу',
+				FULL_SCREEN : 'На весь экран',
+				THUMBS      : 'Превью'
+			}
 		}
 	});
 }
