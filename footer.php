@@ -16,6 +16,10 @@
 				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
 				<span>Принимаю <a href="#" target="_blank">условия обработки</a> персональных данных</span>
 			</label>
+			<label class="style-check-ios">
+				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+				<span>Принимаю <a href="#" target="_blank">условия обработки</a> персональных данных</span>
+			</label>
 		</form>
 	</div>
 

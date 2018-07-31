@@ -4,7 +4,7 @@ label{cursor: pointer;}
 	display: inline-block;
 	width: 100%;
 	margin-bottom: $pad-s;
-	padding: 10px 25px 12px;
+	padding: 12px 25px 14px;
 	font-family: $font;
 	font-size: 14px;
 	color: #3a3a3a;
@@ -16,7 +16,7 @@ label{cursor: pointer;}
 	-webkit-appearance: none;
 	@include res(xl) {
 		margin-bottom: $pad-xs;
-		padding: 9px 20px 11px;
+		padding: 10px 20px 12px;
 	}
 	@include res(l) {
 		font-size: 16px;
@@ -37,6 +37,8 @@ label{cursor: pointer;}
 	}
 
 	&:focus {
+		box-shadow: 0 0 0 1px $blue, 0 2px 4px 0 rgba(0,0,0,0.3);
+		border-color: $blue;
 		outline: none;
 		&::placeholder {
 			opacity: 0;
@@ -44,8 +46,9 @@ label{cursor: pointer;}
 	}
 
 	&.error {
-		border-color: red;
-		box-shadow: 0 0 2px 0 red inset;
+		box-shadow: 0 0 0 1px #ffabab, 0 2px 4px 0 rgba(123, 0, 0, 0.31);
+		border-color: #ffabab;
+		background: #ffe4e4;
 	}
 }
 
@@ -120,3 +123,76 @@ label{cursor: pointer;}
 	}
 }
 //style-checkbox
+
+.style-check-ios {
+	position: relative;
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	font-size: 12px;
+	@include res(s) {
+		font-size: 12px;
+	}
+	input {
+		opacity: 0;
+		position: absolute;
+		left: 0;
+		top: 0;
+		&:checked {
+			&+span {
+				&:before {
+					background: $blue;
+				}
+				&:after {
+					transform: translate(20px, 0);
+				}
+			}
+		}
+		&.error {
+			&+span {
+				&:before {
+					background: #f81242;
+					box-shadow: 0 0 20px 0 rgba(255, 35, 0, 0.6);
+				}
+			}
+		}
+	}
+
+	span {
+		position: relative;
+		display: block;
+		padding-left: 50px;
+		user-select: none;
+		text-align: left;
+		color: #000;
+		&:before {
+			content: '';
+			width: 42px;
+			height: 22px;
+			border-radius: 21px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			transition: all 0.3s ease;
+			background: #b4b4b4;
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			left: 2px;
+			top: 2px;
+			width: 18px;
+			height: 18px;
+			border-radius: 50%;
+			background: #fff;
+			transition: transform 0.3s ease;
+			z-index: 2;
+		}
+	}
+
+	a {
+		color: $blue;
+		text-decoration: underline;
+	}
+}
