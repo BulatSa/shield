@@ -1,12 +1,42 @@
 .modal{
 	display: none;
-	width: 500px;
+	width: 400px;
 	max-width: 100%;
 	border-radius: 5px;
 	will-change: transform,opacity;
 	overflow: visible !important;
 	transition: transform 0.4s ease;
 	transform: translate3d(0,-20px,0);
+	padding: 25px 30px;
+	@include res(xs){
+		padding: 20px 20px;
+	}
+
+	&__title{
+		text-align: center;
+		margin-bottom: 0.4em;
+		padding: 0 30px;
+	}
+
+	&__descr{
+		text-align: center;
+		margin-bottom: 15px;
+		@include res(s){
+			font-size: 14px;
+		}
+	}
+
+	.style-check-ios{
+		margin-top: 10px;
+	}
+
+	.input-text,.input-textarea{
+		display: block;
+		margin-bottom: 15px;
+		@include res(s){
+			margin-bottom: 10px;
+		}
+	}
 }
 
 .fancybox-slide--current {
