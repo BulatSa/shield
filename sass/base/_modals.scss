@@ -33,6 +33,11 @@
 	.btn{
 		width: 100%;
 	}
+
+	&__thanks{
+		text-align: center;
+		padding: $pad-xs 0;
+	}
 }
 
 .fancybox-slide--current {

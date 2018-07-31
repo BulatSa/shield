@@ -132,6 +132,7 @@ label{cursor: pointer;}
 	margin-bottom: 20px;
 	cursor: pointer;
 	font-size: 12px;
+	transform: translate3d(0,0,0);
 	@include res(s) {
 		font-size: 10px;
 		margin-bottom: 15px;
@@ -154,8 +155,8 @@ label{cursor: pointer;}
 		&.error {
 			&+span {
 				&:before {
-					background: #f81242;
-					box-shadow: 0 0 20px 0 rgba(255, 35, 0, 0.6);
+					box-shadow: 0 0 0 2px #ffabab, 0 2px 4px 0 rgba(123, 0, 0, 0.31);
+					background: #ffe4e4;
 				}
 			}
 		}
@@ -178,6 +179,7 @@ label{cursor: pointer;}
 			top: 3px;
 			transition: all 0.3s ease;
 			background: #b4b4b4;
+			transform: translate3d(0,0,0);
 		}
 		&:after {
 			content: '';

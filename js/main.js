@@ -26,7 +26,7 @@ $(function () {
 			}
 		});
 
-		$(this).find("[data-req='true']").on('focus', function () {
+		$(this).find("[data-req='true']").on('focus click', function () {
 			$(this).removeClass('error');
 		});
 

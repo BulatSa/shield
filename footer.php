@@ -17,7 +17,7 @@
 	</div>
 
 	<div id="modal-thanks" class="modal">
-		<p>Спасибо за заявку!</p>
+		<p class="h4 modal__thanks">Спасибо за&nbsp;заявку!</p>
 	</div>
 
 	<div id="modal-error" class="modal">
