@@ -84,11 +84,21 @@ h4,.h4{
 			padding-bottom: 0;
 		}
 	}
+	a {
+		color: $blue;
+	}
 	&--mini {
 		font-size: 14px;
 		@include res(s) {
 			font-size: 13px;
 		}
+	}
+}
+
+.page-title {
+	padding-bottom: $pad-s;
+	@include res(s) {
+		padding-bottom: $pad-xs;
 	}
 }
 
@@ -98,6 +108,15 @@ h4,.h4{
 
 .text-small{
 	font-size: 14px;
+}
+
+.page-back {
+	color: $blue;
+	border-bottom: 1px dashed $blue;
+	transition: all 0.3s ease;
+	&:hover {
+		border-color: transparentize($blue,1);
+	}
 }
 
 .blue{
