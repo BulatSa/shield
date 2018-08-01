@@ -1,71 +1,24 @@
 ﻿<?php include('header.php'); ?>
 
-<section>
+<section class="big-head-sec" style="background-image: url('../img/big-head/bg-main.jpg')">
 	<div class="container">
-		<h1>HelloG from the other side</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<h2>Hello from the other side</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<h3>Hello from the other side</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<h4>HelloG from the other side</h4>
-		<ul>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-		</ul>
-		<h5>Hello from the other side</h5>
-		<ol>
-			<li>Экстренная помощь MIGg</li>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-		</ol>
-
-		<div class="row-big">
-			<div class="grid-6">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
+		<div class="big-head">
+			<div class="big-head__charge">
+				<img src="img/big-head/charge-back.png" alt="">
+				<span>Возврат денег,<br>потерянных на инвестициях</span>
 			</div>
-			<div class="grid-6">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
+			<div class="big-head__info">
+				<h1>Брокер слил депозит<small>или отказывается возвращать деньги?</small></h1>
+				<p>Накажем недобросовестного брокера по закону и вернем ваши деньги всего за 2 месяца. Программа Chargeback — гарантия результата.</p>
+				<a href="#" class="btn btn--orange fancy-modal" data-src="#modal-consult">Бесплатная консультация</a>
+			</div>
+			<div class="big-head__bottom">
+				<div class="big-head__pay">
+					<span>Вы можете получить деньги назад от платежных систем</span>
+					<img src="img/big-head/pay-head.png" alt="">
+				</div>
 			</div>
 		</div>
-		<br><br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<h3>Hello from the other side</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-		<h4>HelloG from the other side</h4>
-		<ul>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-		</ul>
-		<h5>Hello from the other side</h5>
-		<ol>
-			<li>Экстренная помощь MIGg</li>
-			<li>Экстренная помощь MIG</li>
-			<li>Экстренная помощь MIG</li>
-		</ol>
-
-		<div class="row-big">
-			<div class="grid-6">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-			</div>
-			<div class="grid-6">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
-			</div>
-		</div>
-		<br><br>
-
-		<a href="#" class="fancy-modal btn" data-src="#modal-consult">Открыть order</a>
-		<a href="#" class="fancy btn btn--orange" data-src="#modal-callback">Открыть order</a>
-		<a href="img/img.png" class="fancy btn" data-fancybox="1">Открыть img</a>
-		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="fancy-video btn">Открыть youtube</a>
-		<a href="https://yandex.ru/map-widget/v1/-/CBQneLhsOA" class="fancy-map btn" data-type="iframe">схема проезда</a>
-
-
-
 	</div>
 </section>
 

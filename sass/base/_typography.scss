@@ -16,26 +16,59 @@ h1,.h1{
 	font-size: 48px;
 	line-height: 1;
 	font-weight: bold;
+	@include res(xl) {
+		font-size: 42px;
+	}
+	@include res(l) {
+		font-size: 36px;
+	}
+	@include res(s) {
+		font-size: 24px;
+	}
 }
 
 h2,.h2{
 	font-size: 36px;
 	line-height: 1.1;
 	font-weight: bold;
+	@include res(xl) {
+		font-size: 34px;
+	}
+	@include res(l) {
+		font-size: 28px;
+	}
+	@include res(s) {
+		font-size: 22px;
+	}
 }
 
 h3,.h3{
 	font-size: 30px;
 	line-height: 1.2;
 	font-weight: bold;
+	@include res(xl) {
+		font-size: 28px;
+	}
+	@include res(l) {
+		font-size: 24px;
+	}
+	@include res(s) {
+		font-size: 20px;
+	}
 }
 
 h4,.h4{
 	font-size: 28px;
 	line-height: 1.2;
 	font-weight: bold;
-	@include res(s){
+	@include res(xl) {
+		font-size: 24px;
+	}
+	@include res(l) {
 		font-size: 20px;
+	}
+	@include res(s){
+		font-size: 18px;
 	}
 }
 

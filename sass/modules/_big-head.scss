@@ -1,0 +1,135 @@
+.big-head-sec {
+	display: flex;
+	align-items: center;
+	background-position: center;
+	@include res(l) {
+		background-size: cover;
+	}
+	@include res(s) {
+		//display: block;
+		//align-items: initial;
+		background-position: 65% 50%;
+	}
+	.container {
+		background: linear-gradient(to right, #f9f9f9 0%, transparentize(#f9f9f9,1) 70%);
+		@include res(m) {
+			background: transparentize(#f9f9f9,0.25);
+		}
+	}
+}
+
+.big-head {
+	position: relative;
+	max-width: 610px;
+	min-height: 500px;
+	display: flex;
+	align-items: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	@include res(l) {
+		min-height: initial;
+	}
+	@include res(s) {
+		display: block;
+		align-items: initial;
+		padding-top: $pad-xs;
+		padding-bottom: $pad-xs;
+	}
+}
+
+.big-head__charge {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	display: flex;
+	align-items: center;
+	max-width: 370px;
+	color: $blue;
+	font-size: 14px;
+	@include res(s) {
+		position: relative;
+		top: initial;
+		left: initial;
+		padding-bottom: $pad-xs;
+		font-size: 12px;
+	}
+	span {
+		padding-left: 15px;
+		line-height: 1;
+	}
+}
+
+.big-head__info {
+	h1 {
+		padding-bottom: $pad-s;
+		@include res(s) {
+			padding-bottom: $pad-xs;
+		}
+		small {
+			display: block;
+			padding-top: $pad-xxs;
+			font-size: 62.5%;
+		}
+	}
+	p {
+		padding-bottom: 30px;
+		font-size: 18px;
+		line-height: (24/18);
+		@include res(s) {
+			padding-bottom: $pad-xs;
+			font-size: 16px;
+		}
+	}
+}
+
+.big-head__bottom {
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+	@include res(s) {
+		position: relative;
+		bottom: initial;
+		left: initial;
+	}
+}
+
+.big-head__pay {
+	display: flex;
+	align-items: center;
+	@include res(s) {
+		flex-direction: column;
+		align-items: flex-start;
+		padding-top: $pad-xs;
+	}
+	span {
+		position: relative;
+		display: block;
+		max-width: 220px;
+		margin-right: $pad-xs;
+		padding-right: $pad-xs;
+		font-size: 14px;
+		line-height: (18/14);
+		@include res(s) {
+			margin-right: 0;
+			padding-right: 0;
+			padding-bottom: $pad-xxs;
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 1px;
+			height: 100%;
+			background: #000;
+			@include res(s) {
+				content: none;
+			}
+		}
+
+	}
+	img {
+		display: block;
+		max-width: 100%;
+	}
+}
