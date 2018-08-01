@@ -29,6 +29,68 @@
 </div>
 <!-- Модальные окна -->
 
+
+<section class="s-footer">
+	<div class="container">
+
+		<div class="row">
+			<div class="grid-9 grid-12_l">
+				<div class="footer-row">
+					<div class="footer-logo">
+						<a href="/">
+							<img src="/img/footer-logo.png" alt="Логотип">
+						</a>
+					</div>
+					<a href="#">Главная</a>
+					<a href="#">О компании</a>
+					<a href="#" class="active">Сервисы</a>
+					<a href="#">Гарантии</a>
+					<a href="#">Отзывы</a>
+					<a href="#">Блог</a>
+					<a href="#">Контакты</a>
+				</div>
+				<div class="footer-row">
+					<a href="#">Правила и условия оказания юридических услуг</a>
+					<a href="#">Политика конфиденциальности</a>
+					<a href="#">Возврат денежных средств</a>
+				</div>
+			</div>
+			<div class="grid-3 grid-12_l clearfix">
+				<div class="footer-right">
+					<div class="footer-phone">
+						<a href="tel:8(800)6001617">8 (800) 600 16 17</a>
+						<span>Бесплатная горячая линия</span>
+					</div>
+					<div class="footer-phone">
+						<a href="tel:8(905)0387367">8 (905) 038 73 67</a>
+						<span>Cтранам СНГ, Прибалтики, Средней Азии, ближнего и&nbsp;дальнего зарубежья</span>
+					</div>
+					<div class="footer-social">
+						<div class="soc"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row footer-bottom">
+			<div class="grid-4 grid-12_s">
+				Все права защищены<br>
+				ООО "Юридическая компания "Щит&nbsp;и&nbsp;Меч"<br>
+				Дата учреждения: 26.11.2013г
+			</div>
+			<div class="grid-4 grid-12_s footer-bottom__center">
+				ИНН/КПП: 1658151459/165501001<br>
+				ОГРН: 1131690081522
+			</div>
+			<div class="grid-4 grid-12_s footer-bottom__right">
+				<a href="https://penbrain.ru" target="_blank">Дизайн сайта — Pen&Brain</a>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="js/assets.js" type="text/javascript" ></script>
 <script src="js/main.js" type="text/javascript" ></script>

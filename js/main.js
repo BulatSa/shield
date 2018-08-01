@@ -217,7 +217,7 @@ $(function(){
 	$('.burger').on('click',function () {
 		$(this).toggleClass('active');
 		$('.mob-panel').toggleClass('active');
-		$('body').addClass('stopped');
+		$('body').toggleClass('stopped');
 	});
 
 	$(document).on('click touchstart',function (e){
