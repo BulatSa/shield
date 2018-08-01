@@ -36,3 +36,83 @@
 </head>
 
 <body>
+
+
+<div class="burger">
+	<figure></figure>
+</div>
+
+
+<div class="mob-panel">
+	<div class="top-nav__phone">
+		<a href="tel:8(800)6001617">8 (800) 600 16 17</a>
+		<span>Бесплатная горячая линия</span>
+	</div>
+	<nav class="mob-nav">
+		<ul>
+			<li><a href="#">Главная</a></li>
+			<li><a href="#">О компании</a></li>
+			<li><a href="#" class="active">Сервисы</a></li>
+			<li><a href="#">Гарантии</a></li>
+			<li><a href="#">Отзывы</a></li>
+			<li><a href="#">Блог</a></li>
+			<li><a href="#">Контакты</a></li>
+			<li><a href="#" class="blue">Личный кабинет</a></li>
+			<li><a href="#">Главная</a></li>
+			<li><a href="#">О компании</a></li>
+			<li><a href="#" class="active">Сервисы</a></li>
+			<li><a href="#">Гарантии</a></li>
+			<li><a href="#">Отзывы</a></li>
+			<li><a href="#">Блог</a></li>
+			<li><a href="#">Контакты</a></li>
+			<li><a href="#" class="blue">Личный кабинет</a></li>
+			<li><a href="#">Главная</a></li>
+			<li><a href="#">О компании</a></li>
+			<li><a href="#" class="active">Сервисы</a></li>
+			<li><a href="#">Гарантии</a></li>
+			<li><a href="#">Отзывы</a></li>
+			<li><a href="#">Блог</a></li>
+			<li><a href="#">Контакты</a></li>
+			<li><a href="#" class="blue">Личный кабинет</a></li>
+		</ul>
+	</nav>
+	<div class="top-nav__lang">
+		<a href="#" class="active" title="Русская версия">RUS</a>
+		<a href="#" title="English version">ENG</a>
+	</div>
+</div>
+
+
+<section class="top-panel">
+	<div class="container">
+
+		<a href="/" class="top-panel__logo" title="На главную">
+			<img src="/img/top-logo.png" alt="Логотип Щит и Меч">
+		</a>
+
+		<nav class="top-nav">
+			<ul>
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">О компании</a></li>
+				<li><a href="#" class="active">Сервисы</a></li>
+				<li><a href="#">Гарантии</a></li>
+				<li><a href="#">Отзывы</a></li>
+				<li><a href="#">Блог</a></li>
+				<li><a href="#">Контакты</a></li>
+				<li><a href="#" class="blue">Личный кабинет</a></li>
+			</ul>
+		</nav>
+
+		<div class="top-nav__right">
+			<div class="top-nav__phone">
+				<a href="tel:8(800)6001617">8 (800) 600 16 17</a>
+				<span>Бесплатная горячая линия</span>
+			</div>
+
+			<div class="top-nav__lang">
+				<a href="#" class="active" title="Русская версия">RUS</a>
+				<a href="#" title="English version">ENG</a>
+			</div>
+		</div>
+	</div>
+</section>
