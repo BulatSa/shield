@@ -58,22 +58,6 @@
 			<li><a href="#">Блог</a></li>
 			<li><a href="#">Контакты</a></li>
 			<li><a href="#" class="blue">Личный кабинет</a></li>
-			<li><a href="#">Главная</a></li>
-			<li><a href="#">О компании</a></li>
-			<li><a href="#" class="active">Сервисы</a></li>
-			<li><a href="#">Гарантии</a></li>
-			<li><a href="#">Отзывы</a></li>
-			<li><a href="#">Блог</a></li>
-			<li><a href="#">Контакты</a></li>
-			<li><a href="#" class="blue">Личный кабинет</a></li>
-			<li><a href="#">Главная</a></li>
-			<li><a href="#">О компании</a></li>
-			<li><a href="#" class="active">Сервисы</a></li>
-			<li><a href="#">Гарантии</a></li>
-			<li><a href="#">Отзывы</a></li>
-			<li><a href="#">Блог</a></li>
-			<li><a href="#">Контакты</a></li>
-			<li><a href="#" class="blue">Личный кабинет</a></li>
 		</ul>
 	</nav>
 	<div class="top-nav__lang">
