@@ -1,0 +1,158 @@
+//burger
+.burger{
+	width: 36px;
+	height: 36px;
+	position: fixed;
+	background: $blue;
+	top: 15px;
+	right: 10px;
+	z-index: 101;
+	align-items: center;
+	justify-content: center;
+	display: none;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 1px 1px 6px 0 rgba(0,0,0,0.4);
+	@include res(l){
+		display: flex;
+	}
+	@include res(s){
+		top: 7px;
+	}
+
+	figure{
+		width: 25px;
+		height: 2px;
+		background: #FFF;
+		position: relative;
+		transition: transform 0.4s ease,background 0.2s ease 0.1s;
+
+		&:before,&:after{
+			content: '';
+			width: 25px;
+			height: 2px;
+			background: #FFF;
+			position: absolute;
+			transition: transform 0.4s ease;
+		}
+
+		&:before{
+			transform: rotate(0) translate3d(0,-6px,0);
+		}
+
+		&:after{
+			transform: rotate(0) translate3d(0,6px,0);
+		}
+	}
+
+	&.active{
+		background: $orange;
+
+		figure{
+			background: transparent;
+			transform: rotate(-180deg);
+			transition: transform 0.4s ease,background 0.1s ease;
+			&:before{
+				transform: rotate(-45deg) translate3d(0,0,0) scaleX(0.7);
+			}
+			&:after{
+				transform: rotate(45deg) translate3d(0,0,0) scaleX(0.7);
+			}
+		}
+	}
+}
+//burger
+
+
+.mob-panel{
+	display: none;
+	position: fixed;
+	width: 240px;
+	right: 0;
+	top: 0;
+	height: 100%;
+	z-index: 100;
+	padding: 12px 20px 20px 20px;
+	background: $blue;
+	color: #FFF;
+	transform: translate3d(280px,0,0);
+	transition: transform 0.3s ease;
+	box-shadow: -5px 0 10px 0 rgba(0,0,0,0);
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	@include res(l){
+		display: block;
+	}
+
+	&.active{
+		transform: translate3d(0,0,0);
+		box-shadow: -5px 0 10px 0 rgba(0,0,0,0.3);
+	}
+
+	.top-nav__phone{
+		margin-bottom: 20px;
+		
+		span{
+			color: #FFF;
+		}
+	}
+
+	.top-nav__lang{
+		margin-bottom: 20px;
+		display: flex;
+		margin-left: 0;
+		border: 1px solid #FFF;
+
+		a{
+			width: 50%;
+			padding: 5px 10px;
+			text-align: center;
+			font-size: 12px;
+
+			&:hover{
+				color: $gray-text;
+			}
+			
+			&.active{
+				background: #FFF;
+				color: $blue;
+			}
+		}
+	}
+}
+
+
+body.stopped{
+	overflow: hidden;
+}
+
+
+.mob-nav{
+	margin-bottom: 20px;
+
+	ul {
+		list-style: none;
+
+		li {
+			display: block;
+
+			a {
+				display: block;
+				padding: 10px 0;
+				font-size: 12px;
+				font-weight: bold;
+				text-transform: uppercase;
+				transition: color 0.3s ease;
+				white-space: nowrap;
+
+				&.blue{
+					color: $orange;
+				}
+
+				&.active{
+					color: $gray-text;
+				}
+			}
+		}
+	}
+}

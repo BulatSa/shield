@@ -208,3 +208,27 @@ $(function () {
 /***********************
  Waypoints END
  ***********************/
+
+
+/***********************
+ Mob menu BEGIN
+ ***********************/
+$(function(){
+	$('.burger').on('click',function () {
+		$(this).toggleClass('active');
+		$('.mob-panel').toggleClass('active');
+		$('body').addClass('stopped');
+	});
+
+	$(document).on('click touchstart',function (e){
+		var div = $(".burger,.mob-panel");
+		if (!div.is(e.target) && div.has(e.target).length === 0){
+			$('.burger').removeClass('active');
+			$('.mob-panel').removeClass('active');
+			$('body').removeClass('stopped');
+		}
+	});
+});
+/***********************
+ Mob menu END
+ ***********************/

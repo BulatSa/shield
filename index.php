@@ -31,6 +31,31 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
 			</div>
 		</div>
+		<br><br><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
+		<h3>Hello from the other side</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
+		<h4>HelloG from the other side</h4>
+		<ul>
+			<li>Экстренная помощь MIG</li>
+			<li>Экстренная помощь MIG</li>
+			<li>Экстренная помощь MIG</li>
+		</ul>
+		<h5>Hello from the other side</h5>
+		<ol>
+			<li>Экстренная помощь MIGg</li>
+			<li>Экстренная помощь MIG</li>
+			<li>Экстренная помощь MIG</li>
+		</ol>
+
+		<div class="row-big">
+			<div class="grid-6">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
+			</div>
+			<div class="grid-6">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur distinctio minima placeat, possimus quasi suscipit! A asperiores dicta fuga necessitatibus nobis numquam obcaecati perspiciatis. Aliquid eaque minima minus modi voluptates.</p>
+			</div>
+		</div>
 		<br><br>
 
 		<a href="#" class="fancy-modal btn" data-src="#modal-consult">Открыть order</a>
