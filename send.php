@@ -6,34 +6,35 @@ $tofile = $subject . ";";
 
 //recaptcha
 // если рекапча есть в форме, то посылаем запрос гуглу на проверку. Если что-то не так то не выполняем больше ничег ов этом скрипте
-$recaptcha = $_POST['g-recaptcha-response'];
-if(!empty($recaptcha)) {
-	$secret = '6LeinmcUAAAAAMFhccNd24XniBp35DKJgTRN6By9';
-	$url = "https://www.google.com/recaptcha/api/siteverify?secret=".$secret ."&response=".$recaptcha."&remoteip=".$_SERVER['REMOTE_ADDR'];
-	$curl = curl_init();
-	curl_setopt($curl, CURLOPT_URL, $url);
-	curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-	curl_setopt($curl, CURLOPT_TIMEOUT, 10);
-	curl_setopt($curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.16) Gecko/20110319 Firefox/3.6.16");
-	$curlData = curl_exec($curl);
-	curl_close($curl);
-	$curlData = json_decode($curlData, true);
+if (!empty($_POST['has_captcha'])):
+	$recaptcha = $_POST['g-recaptcha-response'];
+	if(!empty($recaptcha)) :
+		$secret = '6LeinmcUAAAAAMFhccNd24XniBp35DKJgTRN6By9';
+		$url = "https://www.google.com/recaptcha/api/siteverify?secret=".$secret ."&response=".$recaptcha."&remoteip=".$_SERVER['REMOTE_ADDR'];
+		$curl = curl_init();
+		curl_setopt($curl, CURLOPT_URL, $url);
+		curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+		curl_setopt($curl, CURLOPT_TIMEOUT, 10);
+		curl_setopt($curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.16) Gecko/20110319 Firefox/3.6.16");
+		$curlData = curl_exec($curl);
+		curl_close($curl);
+		$curlData = json_decode($curlData, true);
 
-	if(!$curlData['success']) {
-		echo "fail recaptcha";
+		if(!$curlData['success']) :
+			echo "fail recaptcha";
+			die();
+		endif;
+	else :
+		echo "empty recaptcha";
 		die();
-	}
-}
-else {
-	echo "empty recaptcha";
-	die();
-}
+	endif;
+endif;
 //recaptcha
 
 
 foreach ($_POST as $input_name => $input_val) {
 	$input_val = htmlspecialchars(strip_tags(trim($input_val)));
-	if ($input_name != "form_subject" && $input_name != "g-recaptcha-response" && $input_name != "user_policy") {
+	if ($input_name != "form_subject" && $input_name != "g-recaptcha-response" && $input_name != "user_policy" && $input_name != "has_captcha") {
 		if ( !strpos($input_name, '_label')){
 			$input_label = $input_name . '_label';
 			if (!empty($_POST[$input_label])) {
