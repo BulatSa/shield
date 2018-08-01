@@ -66,7 +66,11 @@
 						<span>Cтранам СНГ, Прибалтики, Средней Азии, ближнего и&nbsp;дальнего зарубежья</span>
 					</div>
 					<div class="footer-social">
-						<div class="soc"></div>
+						<div class="social-list">
+							<a href="#"><i class="icon-soc-fb"></i></a>
+							<a href="#"><i class="icon-soc-insta"></i></a>
+							<a href="#"><i class="icon-soc-you"></i></a>
+						</div>
 					</div>
 				</div>
 			</div>

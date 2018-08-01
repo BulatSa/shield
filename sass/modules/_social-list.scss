@@ -1,0 +1,22 @@
+.social-list{
+	display: flex;
+
+	a{
+		display: flex;
+		flex-shrink: 0;
+		align-items: center;
+		justify-content: center;
+		width: 38px;
+		height: 38px;
+		border-radius: 5px;
+		background: $blue;
+		font-size: 22px;
+		margin-right: $pad-xs;
+		transition: color 0.3s ease,background 0.3s ease;
+
+		&:hover{
+			background: #FFF;
+			color: $blue;
+		}
+	}
+}
