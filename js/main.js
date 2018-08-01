@@ -5,6 +5,7 @@ $(function () {
 	$(".ajax-form").on("submit", function (event) {
 		var form = $(this);
 		var send = true;
+		var captcha = form.find('.g-recaptcha');
 		event.preventDefault();
 
 		$(this).find("[data-req='true']").each(function () {
@@ -50,10 +51,25 @@ $(function () {
 				data: form_data,
 				success: (function (result) {
 					console.log(result);
-					$.fancybox.close();
+					if (result.indexOf("empty recaptcha") !== -1) {
+						captcha.addClass('error');
+						setTimeout(function () {
+							captcha.removeClass('error');
+						},2000);
+						return;
+					}
+					if (result.indexOf("fail recaptcha") !== -1) {
+						captcha.addClass('error');
+						setTimeout(function () {
+							captcha.removeClass('error');
+						},2000);
+						return;
+					}
 					if (result.indexOf("Mail FAIL") !== -1) {
+						$.fancybox.close();
 						$.fancybox.open({src: '#modal-error'});
 					} else {
+						$.fancybox.close();
 						$.fancybox.open({src: '#modal-thanks'});
 						setTimeout(function () {
 							$.fancybox.close();
