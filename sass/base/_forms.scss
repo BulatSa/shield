@@ -206,6 +206,9 @@ label{cursor: pointer;}
 
 .g-recaptcha{
 	transform: translate3d(0,0,0);
+	&>div {
+		margin: 0 auto;
+	}
 	&.error{
 		animation: shake 0.15s 6 linear;
 	}
