@@ -86,11 +86,13 @@
 }
 
 .footer-social{
+	width: 170px;
 
-	.soc{
-		width: 170px;
-		height: 40px;
-		background: $blue;
+	.social-list{
+		justify-content: space-between;
+		a{
+			margin: 0;
+		}
 	}
 
 }
