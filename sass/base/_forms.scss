@@ -206,9 +206,13 @@ label{cursor: pointer;}
 
 .g-recaptcha{
 	transform: translate3d(0,0,0);
+	margin-bottom: $pad-xs;
+	@include res(s){
+		margin-bottom: 15px;
+	}
 	@include res(xs){
-		transform: scale(0.9);
-		transform-origin: center top;
+		transform: scale(0.8);
+		transform-origin: left top;
 	}
 	&>div {
 		margin: 0 auto;

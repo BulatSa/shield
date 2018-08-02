@@ -129,7 +129,7 @@
 
 <section class="s-tariff-list def-sec">
 	<div class="container">
-		<div class="sec-title">
+		<div class="sec-title sec-title--bigmargin">
 			<div class="uptext">Пакеты услуг</div>
 			<div class="h1">3 гарантированных способа <small>вернуть деньги</small></div>
 		</div>
@@ -261,6 +261,63 @@
 			</div>
 		</div>
 
+	</div>
+</section>
+
+
+<section class="s-order def-sec">
+	<div class="container">
+		<div class="row">
+
+			<div class="grid-6  grid-12_m s-order__left">
+				<div class="sec-title">
+					<div class="uptext"><i class="icon-fire"></i>Важно</div>
+					<div class="h1">Деньги можно&nbsp;вернуть, <small>но надо знать как</small></div>
+				</div>
+				<div class="text-big">Заявление на возврат средств от конкретного брокера можно подать только один раз. Если документы и сопутствующие материалы будут заполнены неверно, банк отклонит вашу заявку и все последующие заявления на оспаривание транзакций. Советуем сразу обращаться к специалистам с опытом chargeback, чтобы гарантированно вернуть свои средства назад.</div>
+				<img src="/img/home/books.png" alt="books" class="s-order__books">
+			</div>
+
+			<div class="grid-6 grid-12_m">
+				<div class="s-order__right">
+					<div class="order-block">
+						<p class="h4 order-block__title">Начните возврат своих денег <span class="blue">прямо сейчас</span></p>
+						<form class="ajax-form">
+							<input type="hidden" value="Новая заявка" name="form_subject">
+							<input type="text" class="input-text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
+							<input type="tel" class="input-text" name="user_tel" placeholder="Телефон | Для оценки дела*" data-label="Телефон"  data-req="true">
+							<input type="email" class="input-text" name="user_email" placeholder="E-mail | Для отправки документов*" data-label="Email" data-req="true">
+							<input type="hidden" value="1" name="has_captcha">
+							<div class="g-recaptcha"></div>
+							<label class="style-check-ios">
+								<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+								<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+							</label>
+							<button type="submit" class="btn">Отправить</button>
+						</form>
+					</div>
+					<div class="order-triggers">
+						<img src="/img/home/letter.png" alt="letter" class="order-triggers__letter">
+						<div class="order-triggers__content">
+							<div class="uptext">Оставьте заявку и&nbsp;вы получите:</div>
+							<div class="order-trigger">
+								<i class="icon-percent"></i>
+								Оценку дела юристом с опытом оспаривания денежных переводов.
+							</div>
+							<div class="order-trigger">
+								<i class="icon-comment"></i>
+								Рекомендации по возврату денежных средств для вашего случая.
+							</div>
+							<div class="order-trigger">
+								<i class="icon-doc"></i>
+								Первичные документы для запуска процедуры Chargeback.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
 	</div>
 </section>
 

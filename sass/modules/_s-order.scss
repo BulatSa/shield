@@ -1,0 +1,115 @@
+.s-order{
+	background: url("../img/numbers-white.png") center top repeat;
+}
+
+.s-order__left{
+	padding-right: $pad-l !important;
+	@include res(m){
+		padding-right: 10px !important;
+	}
+}
+
+.s-order__books{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin-top: $pad-m;
+}
+
+.s-order__right{
+	position: relative;
+}
+
+.order-block{
+	position: relative;
+	z-index: 2;
+	border-radius: 5px;
+	background: #FFF;
+	padding: 35px 30px;
+	max-width: 390px;
+	@extend %shadow-for-white-bg;
+	@include res(m){
+		margin-top: $pad-xs;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	@include res(s){
+		padding: 20px 20px;
+	}
+
+	&__title{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.btn{
+		width: 100%;
+	}
+}
+
+
+//order-triggers
+.order-triggers{
+	background: #f2f0ed;
+	position: absolute;
+	z-index: 1;
+	border-radius: 5px;
+	width: calc(100% + 30px);
+	top: 70px;
+	right: 0;
+	padding: 20px 25px;
+	text-align: right;
+	@media (max-width: 1250px) {
+		position: relative;
+		top: 0;
+		margin-top: $pad-xs;
+		width: 100%;
+		max-width: 390px;
+	}
+	@include res(m){
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.order-triggers__letter{
+	position: absolute;
+	bottom: 100%;
+	right: 40px;
+	@media (max-width: 1250px) {
+		display: none;
+	}
+}
+
+.order-triggers__content{
+	display: inline-block;
+	vertical-align: top;
+	width: 150px;
+	text-align: left;
+	@media (max-width: 1250px) {
+		width: 100%;
+	}
+
+	.uptext{
+		margin-bottom: $pad-xs;
+	}
+}
+
+.order-trigger{
+	position: relative;
+	margin-bottom: $pad-xs;
+	padding-left: $pad-s;
+	font-size: 14px;
+	&:last-child{
+		margin-bottom: 0;
+	}
+
+	i{
+		position: absolute;
+		top: 0.2em;
+		left: 0;
+		font-size: 20px;
+		color: $blue;
+	}
+}
+//order-triggers

@@ -93,6 +93,11 @@ h4,.h4{
 			font-size: 13px;
 		}
 	}
+
+	img{
+		max-width: 100%;
+		height: auto;
+	}
 }
 
 .page-title {
@@ -176,15 +181,26 @@ h4,.h4{
 	}
 }
 
+
 .sec-title{
-	margin-bottom: $pad-m;
-	@include res(xl){
-		margin-bottom: $pad-s;
+	margin-bottom: $pad-xs;
+
+	&--bigmargin{
+		margin-bottom: $pad-m;
+		@include res(s){
+			margin-bottom: $pad-s;
+		}
 	}
 
 	.uptext{
 		display: block;
 		margin-bottom: $pad-xxs;
+
+		.icon-fire{
+			color: $orange;
+			font-size: 27px;
+			margin-right: $pad-xxs;
+		}
 	}
 
 	.h1{
