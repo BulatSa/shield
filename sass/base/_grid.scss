@@ -102,6 +102,19 @@
 	flex-wrap: wrap;
 }
 
+.def-sec {
+	padding-top: $pad-l;
+	padding-bottom: $pad-l;
+	@include res(xl) {
+		padding-top: $pad-m;
+		padding-bottom: $pad-m;
+	}
+	@include res(l) {
+		padding-top: $pad-s;
+		padding-bottom: $pad-s;
+	}
+}
+
 .clearfix{
 	&:before{
 		content: " ";

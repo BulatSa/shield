@@ -72,12 +72,51 @@ h4,.h4{
 	}
 }
 
+.user-content {
+	font-size: 16px;
+	line-height: (21/16);
+	p {
+		padding-bottom: 1.2em;
+		@include res(s) {
+			font-size: 14px;
+		}
+		&:last-child {
+			padding-bottom: 0;
+		}
+	}
+	a {
+		color: $blue;
+	}
+	&--mini {
+		font-size: 14px;
+		@include res(s) {
+			font-size: 13px;
+		}
+	}
+}
+
+.page-title {
+	padding-bottom: $pad-s;
+	@include res(s) {
+		padding-bottom: $pad-xs;
+	}
+}
+
 .text-big{
 	font-size: 18px;
 }
 
 .text-small{
 	font-size: 14px;
+}
+
+.page-back {
+	color: $blue;
+	border-bottom: 1px dashed $blue;
+	transition: all 0.3s ease;
+	&:hover {
+		border-color: transparentize($blue,1);
+	}
 }
 
 .blue{

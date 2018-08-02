@@ -210,6 +210,9 @@ label{cursor: pointer;}
 		transform: scale(0.9);
 		transform-origin: left top;
 	}
+	&>div {
+		margin: 0 auto;
+	}
 	&.error{
 		animation: shake 0.15s 6 linear;
 	}
