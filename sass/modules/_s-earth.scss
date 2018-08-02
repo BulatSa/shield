@@ -1,0 +1,21 @@
+.s-earth{
+	min-height: 824px;
+	background: url("../img/earth/bg.jpg") center top no-repeat $purple;
+	padding-top: 170px;
+	padding-bottom: 60px;
+	color: #FFF;
+	font-size: 14px;
+	line-height: 1.2;
+	@include res(s){
+		padding-top: 120px;
+		min-height: initial;
+	}
+
+	.uptext{
+		margin-top: $pad-xs;
+	}
+
+	.grid-4 div{
+		margin-bottom: 6px;
+	}
+}
