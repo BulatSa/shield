@@ -1,4 +1,67 @@
-.block{
-	margin-top: 40px;
-	@extend %shadow-for-white-bg;
+//s-home-video
+.s-home-video{
+	padding: 20px 0;
+
+	.row{
+		align-items: flex-end;
+		@include res(m){
+			align-items: flex-start;
+		}
+	}
+
+	.h1{
+		margin-bottom: 0.1em;
+	}
+
+	.info-block{
+		margin-top: $pad-m;
+		@include res(s){
+			margin-top: $pad-s;
+		}
+	}
 }
+
+.video-man{
+	display: block;
+	position: relative;
+	width: 428px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	@include res(s){
+		margin-top: $pad-s;
+		width: 300px;
+		max-width: 80%;
+	}
+
+	&:hover,&:focus{
+		outline: none;
+		.video-man__icon{
+			fill: $orange;
+		}
+	}
+
+	&__img{
+		max-width: 100%;
+		height: auto;
+	}
+
+	&__icon{
+		fill: $gray-bg;
+		height: 150px;
+		width: 125px;
+		position: absolute;
+		z-index: 2;
+		bottom: 25%;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		transform: translate3d(10%,0,0);
+		transition: fill 0.3s ease;
+		@include res(s){
+			height: 100px;
+			width: 83px;
+		}
+	}
+}
+//s-home-video

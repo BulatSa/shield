@@ -1,0 +1,66 @@
+.trigger-row{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	&--5{
+		@include res(m){
+			justify-content: space-around;
+		}
+		.trigger{
+			width: calc(100% / 5 - 30px);
+			@include res(l){
+				width: calc(100% / 5 - 10px);
+			}
+			@include res(m){
+				width: calc(100% / 3 - 20px);
+				margin-bottom: 40px;
+			}
+			@include res(s){
+				width: calc(100% / 2 - 20px);
+			}
+			@include res(xs){
+				width: 100%;
+			}
+		}
+	}
+}
+
+
+.trigger{
+	//width: calc(100% / 5 - 20px);
+
+	&__head{
+		position: relative;
+		background: $light-bg;
+		height: 75px;
+		border-radius: 8px;
+		margin-bottom: $pad-xs;
+
+		img{
+			position: absolute;
+		}
+	}
+}
+
+.trigger__img--1{
+	bottom: 0;
+	right: 8px;
+}
+.trigger__img--2{
+	top: -23px;
+	right: 8px;
+}
+.trigger__img--3{
+	top: -10px;
+	right: 8px;
+}
+.trigger__img--4{
+	top: -18px;
+	right: 8px;
+}
+.trigger__img--5{
+	top: -23px;
+	right: 8px;
+}
