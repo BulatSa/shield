@@ -1,0 +1,77 @@
+.tariff{
+	@extend %shadow-for-white-bg;
+	border-radius: 10px;
+	background: #FFF;
+	@include res(m){
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: $pad-m;
+	}
+
+	main{
+		padding: $pad-s;
+		@include res(xs){
+			padding: $pad-xs;
+		}
+	}
+
+	.h2{
+		margin-bottom: $pad-xs;
+		@include res(xs){
+			margin-bottom: $pad-xxs;
+		}
+	}
+
+	.text-big{
+		margin-bottom: $pad-s;
+		@include res(l){
+			font-size: 16px;
+		}
+		@include res(xs){
+			font-size: 14px;
+			margin-bottom: $pad-xs;
+		}
+	}
+
+	&__item{
+		position: relative;
+		color: $gray-text;
+		font-size: 14px;
+		padding-left: 35px;
+		margin-bottom: $pad-xxs;
+
+		img{
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+
+	&__actions{
+		padding-top: $pad-xs;
+		text-align: center;
+
+		.btn{
+			width: 100%;
+			margin-bottom: $pad-xs;
+		}
+	}
+
+	footer{
+		display: flex;
+		align-items: center;
+		background: $gray-bg;
+		padding: $pad-xs $pad-s;
+		font-size: 12px;
+		color: $gray-text;
+		border-radius: 0 0 10px 10px;
+		@include res(xs){
+			padding: $pad-xs;
+		}
+
+		img{
+			margin-right: $pad-xs;
+		}
+	}
+}

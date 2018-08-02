@@ -208,7 +208,7 @@ label{cursor: pointer;}
 	transform: translate3d(0,0,0);
 	@include res(xs){
 		transform: scale(0.9);
-		transform-origin: left top;
+		transform-origin: center top;
 	}
 	&>div {
 		margin: 0 auto;

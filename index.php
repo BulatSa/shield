@@ -126,4 +126,143 @@
 	</div>
 </section>
 
+
+<section class="s-tariff-list def-sec">
+	<div class="container">
+		<div class="sec-title">
+			<div class="uptext">Пакеты услуг</div>
+			<div class="h1">3 гарантированных способа <small>вернуть деньги</small></div>
+		</div>
+
+		<div class="row-big">
+			<div class="grid-4 grid-12_m">
+				<div class="tariff">
+					<main>
+						<div class="h2">Минимальный</div>
+						<div class="text-big">Сумма ущерба от 100.000 <span class="rub">a</span></div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/1.svg" alt="1">
+							Бесплатная первичная консультация
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/2.svg" alt="1">
+							Персональный юрист
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/3.svg" alt="1">
+							Персональный менеджер
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/4.svg" alt="1">
+							Полное сопровождение дела
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/5.svg" alt="1">
+							Бесплатная часовая круглосуточная поддержка и&nbsp;консультация юриста
+						</div>
+						<div class="tariff__actions">
+							<button class="btn fancy-modal" data-src="#modal-order">Выбрать</button>
+							<a href="#" class="link">Узнать подробнее</a>
+						</div>
+					</main>
+					<footer>
+						<img src="/img/tariffs/lock.svg" alt="1">
+						Если Сhargeback не запустится, мы вернем вам деньги.
+					</footer>
+				</div>
+			</div>
+			<div class="grid-4 grid-12_m">
+				<div class="tariff">
+					<main>
+						<div class="h2">Оптимальный</div>
+						<div class="text-big">Сумма ущерба от 500.000 <span class="rub">a</span></div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/1.svg" alt="1">
+							Бесплатная первичная консультация
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/2.svg" alt="1">
+							Персональный юрист
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/3.svg" alt="1">
+							Персональный менеджер
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/4.svg" alt="1">
+							Полное сопровождение дела
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/5.svg" alt="1">
+							Круглосуточная безлимитная поддержка и&nbsp;консультация юриста
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/8.svg" alt="1">
+							72 часа на&nbsp;сбор и&nbsp;отправку документов в&nbsp;банк после подписания договора и&nbsp;оплаты услуг
+						</div>
+						<div class="tariff__actions">
+							<button class="btn fancy-modal" data-src="#modal-order">Выбрать</button>
+							<a href="#" class="link">Узнать подробнее</a>
+						</div>
+					</main>
+					<footer>
+						<img src="/img/tariffs/lock.svg" alt="1">
+						Если Сhargeback не запустится, мы вернем вам деньги.
+					</footer>
+				</div>
+			</div>
+			<div class="grid-4 grid-12_m">
+				<div class="tariff">
+					<main>
+						<div class="h2">Идеальный</div>
+						<div class="text-big">Сумма ущерба от 1.000.000 <span class="rub">a</span></div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/1.svg" alt="1">
+							Бесплатная первичная консультация
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/2.svg" alt="1">
+							Персональный юрист
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/3.svg" alt="1">
+							Персональный менеджер
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/4.svg" alt="1">
+							Полное сопровождение дела
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/5.svg" alt="1">
+							Круглосуточная безлимитная поддержка и&nbsp;консультация юриста
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/6.svg" alt="1">
+							Приоритет в составлении и&nbsp;отправке документов для&nbsp;опротестования транзакций
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/7.svg" alt="1">
+							Заявления на&nbsp;chargeback от&nbsp;генерального директора компании
+						</div>
+						<div class="tariff__item">
+							<img src="/img/tariffs/8.svg" alt="1">
+							72 часа на&nbsp;сбор и&nbsp;отправку документов в&nbsp;банк после подписания договора и&nbsp;оплаты услуг
+						</div>
+						<div class="tariff__actions">
+							<button class="btn fancy-modal" data-src="#modal-order">Выбрать</button>
+							<a href="#" class="link">Узнать подробнее</a>
+						</div>
+					</main>
+					<footer>
+						<img src="/img/tariffs/lock.svg" alt="1">
+						Если Сhargeback не запустится, мы вернем вам деньги.
+					</footer>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
 <?php include('footer.php'); ?>

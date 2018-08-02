@@ -113,6 +113,13 @@ h4,.h4{
 	font-size: 14px;
 }
 
+.uptext{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+}
+
 .page-back {
 	color: $blue;
 	border-bottom: 1px dashed $blue;
@@ -166,5 +173,36 @@ h4,.h4{
 		position: absolute;
 		top: $pad-xxs;
 		left: 15px;
+	}
+}
+
+.sec-title{
+	margin-bottom: $pad-m;
+	@include res(xl){
+		margin-bottom: $pad-s;
+	}
+
+	.uptext{
+		display: block;
+		margin-bottom: $pad-xxs;
+	}
+
+	.h1{
+		small{
+			display: block;
+			line-height: 1.2;
+			font-weight: bold;
+			font-size: 30px;
+			margin-top: 0.3em;
+			@include res(xl) {
+				font-size: 28px;
+			}
+			@include res(l) {
+				font-size: 24px;
+			}
+			@include res(s) {
+				font-size: 20px;
+			}
+		}
 	}
 }
