@@ -1,0 +1,25 @@
+.s-about-video{
+
+	&__links{
+		a{
+			display: inline-block;
+			margin-right: $pad-s;
+			margin-bottom: $pad-xxs;
+
+			&:last-child{
+				margin-bottom: 0;
+				margin-right: 0;
+			}
+		}
+	}
+
+	.tabs__links{
+		width: 100%;
+	}
+
+	.tabs{
+		@include res(m){
+			margin-top: $pad-s;
+		}
+	}
+}

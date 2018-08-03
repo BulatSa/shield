@@ -322,6 +322,51 @@
 </section>
 
 
+<section class="s-about-video def-sec">
+	<div class="container">
+		<div class="row">
+			<div class="grid-5 grid-12_m">
+				<div class="sec-title">
+					<div class="uptext">О компании</div>
+					<div class="h1">«Щит и меч» — <small>ваша защита от&nbsp;недобросовестных брокеров</small></div>
+				</div>
+				<div class="user-content">
+					<p class="text-big">Наша история началась в 2013 году, когда сами столкнулись с брокером-мошенником. Мы находились в поисках гарантированных способов вернуть свои деньги и обнаружили информацию о процедуре сhargeback.</p>
+					<br>
+					<div class="info-block">
+						Благодаря ей мы смогли вывести денежные средства от Telexfree, а позже, используя полученный опыт, начали помогать другим пострадавшим от действий брокеров-обманщиков.
+					</div>
+				</div>
+				<div class="s-about-video__links">
+					<a href="#" class="link">Подробнее</a>
+					<a href="#" class="link">Связаться</a>
+				</div>
+			</div>
+			<div class="grid-6 grid-off-1 grid-12_m grid-off-0_m">
+				<div class="tabs">
+					<div class="tabs__links">
+						<button>Юридический отдел</button>
+						<button>Отдел работы с&nbsp;клиентами</button>
+					</div>
+					<div class="tabs__wrapper">
+						<div class="tabs__content">
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview video-preview--big fancy-video" rel="nofollow">
+								<img src="/img/home/about-video.jpg" alt="v">
+							</a>
+						</div>
+						<div class="tabs__content">
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview video-preview--big fancy-video" rel="nofollow">
+								<img src="/img/home/about-video2.jpg" alt="v">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <section class="s-earth">
 	<div class="container">
 		<div class="row">

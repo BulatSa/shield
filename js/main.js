@@ -248,3 +248,29 @@ $(function(){
 /***********************
  Mob menu END
  ***********************/
+
+
+/***********************
+Tabs BEGIN
+***********************/
+$(function($){
+	$('.tabs button').on('click',function (e) {
+		e.preventDefault();
+		var thisBtn = $(this);
+		var thisTabs = thisBtn.parents('.tabs');
+		var index = thisBtn.index();
+		selectTab(thisTabs,index);
+	});
+
+	function selectTab(tabs,index) {
+		tabs.find('.tabs__links button').removeClass('active').eq(index).addClass('active');
+		tabs.find('.tabs__content').removeClass('active').eq(index).addClass('active');
+	}
+
+	$('.tabs').each(function () {
+		selectTab($(this),0);
+	})
+});
+/***********************
+Tabs END
+***********************/

@@ -7,8 +7,15 @@
 	font-size: 14px;
 	line-height: 1.2;
 	@include res(s){
-		padding-top: 120px;
+		padding-top: $pad-l;
+		padding-bottom: $pad-l;
 		min-height: initial;
+		background: url("../img/earth/bg_m.jpg") center top no-repeat $purple;
+	}
+
+	&:before{
+		content: '';
+
 	}
 
 	.uptext{
