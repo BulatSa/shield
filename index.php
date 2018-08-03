@@ -439,4 +439,46 @@
 	</div>
 </section>
 
+
+<section class="s-home-director def-sec">
+	<div class="container">
+
+		<div class="row">
+			<div class="grid-5 grid-12_m">
+				<div class="sec-title">
+					<div class="uptext">О нас</div>
+					<div class="h1">Щит и Меч</div>
+				</div>
+				<div class="user-content">
+					<div class="cite-shout">это команда, которая заботится об улучшении сервиса ради клиентов</div>
+					<div class="text-big">Мы постоянно совершенствуем систему возврата денежных средств с оффшорных зон и ищем способы, которые гарантируют возврат денежных средств в 10 случаях из 10.</div>
+				</div>
+				<div class="home-director-info">
+					<img src="/img/home/podpis.png" alt="Подпись" class="home-director-info__sign">
+					<div class="uptext">Инсар Валиахметов</div>
+					<div class="text-small">Генеральный Директор,<br>учредитель компании</div>
+					<div class="social-list social-list--hover-orange social-list--small">
+						<a href="#"><i class="icon-soc-fb"></i></a>
+						<a href="#"><i class="icon-mail"></i></a>
+						<a href="#"><i class="icon-soc-vk"></i></a>
+						<a href="#"><i class="icon-bubble-full"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="grid-6 grid-off-1 grid-12_m grid-off-0_m">
+				<img src="/img/home/director.jpg" alt="Директор" class="home-director-img">
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
+<section class="s-home-team">
+	<div class="s-home-team__btnwrap">
+		<a href="#" class="btn">Познакомиться со всей командой</a>
+	</div>
+	<img src="/img/home/team.jpg" alt="team">
+</section>
+
 <?php include('footer.php'); ?>

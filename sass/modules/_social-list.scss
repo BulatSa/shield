@@ -2,6 +2,7 @@
 	display: flex;
 
 	a{
+		color: #FFF;
 		display: flex;
 		flex-shrink: 0;
 		align-items: center;
@@ -17,6 +18,47 @@
 		&:hover{
 			background: #FFF;
 			color: $blue;
+		}
+
+		i{
+			&.icon-mail{
+				font-size: 15px;
+			}
+			&.icon-soc-vk{
+				font-size: 14px;
+			}
+			&.icon-bubble-full{
+				font-size: 20px;
+			}
+		}
+	}
+
+	&--hover-orange{
+		a{
+			&:hover{
+				background: $orange;
+				color: #FFF;
+			}
+		}
+	}
+
+	&--small{
+		a{
+			font-size: 16px;
+			width: 30px;
+			height: 30px;
+
+			i{
+				&.icon-mail{
+					font-size: 12px;
+				}
+				&.icon-soc-vk{
+					font-size: 12px;
+				}
+				&.icon-bubble-full{
+					font-size: 16px;
+				}
+			}
 		}
 	}
 }

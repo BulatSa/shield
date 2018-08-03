@@ -79,7 +79,7 @@ h4,.h4{
 	h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5{
 		margin-bottom: $pad-xs;
 	}
-	p,ul,ol,table,img,.info-block {
+	p,ul,ol,table,img,.info-block,.cite-shout {
 		margin-bottom: $pad-xs;
 	}
 	a:not(.btn) {
@@ -224,5 +224,26 @@ h4,.h4{
 				font-size: 20px;
 			}
 		}
+	}
+}
+
+.cite-shout{
+	position: relative;
+	background: #f2f0ed;
+	font-size: 30px;
+	font-style: italic;
+	padding: $pad-xs $pad-xs $pad-xs $pad-l;
+	@include res(l){
+		font-size: 20px;
+	}
+	@include res(xs){
+		font-size: 16px;
+	}
+
+	&:before{
+		content: '—';
+		position: absolute;
+		top: $pad-xs;
+		left: $pad-xs;
 	}
 }
