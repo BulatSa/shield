@@ -1,3 +1,11 @@
  %shadow-for-white-bg{
 	box-shadow: 0 3px 30px 0 rgba(0,0,0,0.1);
 }
+
+ %link-hover-orange{
+	 transition: color 0.3s ease;
+
+	 &:hover{
+		 color: $orange;
+	 }
+ }

@@ -32,7 +32,7 @@
 					<div class="panel__content">
 						<div class="h2"><small>Более</small>100.000.000 <span class="rub-small">c</span></div>
 						<p class="panel__text">Вернули своим клиентам за 2016 год. Это 91% успешных сделок.</p>
-						<a href="#" class="link">Проверьте своего брокера</a>
+						<a href="#" class="link link--big">Проверьте своего брокера</a>
 					</div>
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 					<div class="panel__content">
 						<div class="h2"><small>Комиссия</small>~5%</div>
 						<p class="panel__text">Рассчитываем стоимость услуг от суммы потерянного депозита.</p>
-						<a href="#" class="link">Подробнее о тарифах</a>
+						<a href="#" class="link link--big">Подробнее о тарифах</a>
 					</div>
 				</div>
 			</div>
@@ -52,7 +52,7 @@
 					<div class="panel__content">
 						<div class="h2"><small>Свыше</small>1.200 клиентов </div>
 						<p class="panel__text">Получили деньги назад за 5 лет работы компании в России и СНГ.</p>
-						<a href="#" class="link">Больше о компании</a>
+						<a href="#" class="link link--big">Больше о компании</a>
 					</div>
 				</div>
 			</div>
@@ -480,5 +480,80 @@
 	</div>
 	<img src="/img/home/team.jpg" alt="team">
 </section>
+
+
+<section class="s-home-blog def-sec">
+	<div class="container">
+		<div class="sec-title sec-title--bigmargin sec-title--line">
+			<div class="sec-title__left">
+				<div class="h1">Блог</div>
+			</div>
+			<div class="sec-title__right">
+				<a href="#" class="link-icon"><i class="icon-bubble"></i><span>Смотреть другие статьи</span></a>
+			</div>
+		</div>
+
+		<div class="row-big blog-list">
+			<div class="grid-3 grid-6_m grid-12_xxs">
+				<div class="blog-preview">
+					<a href="#">
+						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
+					</a>
+					<div class="blog-preview__content">
+						<div class="blog-preview__crop">
+							<strong class="blog-preview__title"><a href="#">Статья первая</a></strong>
+							<div class="blog-preview__descr text-small">Мы ведем дело от Вашего лица, берем на себя всю бумажную работу и переговоры с участниками процесса возврата средств.</div>
+						</div>
+						<a href="#" class="link blog-preview__more">Подробнее</a>
+					</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_m grid-12_xxs">
+				<div class="blog-preview">
+					<a href="#">
+						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
+					</a>
+					<div class="blog-preview__content">
+						<div class="blog-preview__crop">
+							<strong class="blog-preview__title"><a href="#">Статья первая</a></strong>
+							<div class="blog-preview__descr text-small">Мы ведем дело от Вашего лица, берем на себя всю бумажную работу и переговоры с участниками процесса возврата средств.</div>
+						</div>
+						<a href="#" class="link blog-preview__more">Подробнее</a>
+					</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_m grid-12_xxs">
+				<div class="blog-preview">
+					<a href="#">
+						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
+					</a>
+					<div class="blog-preview__content">
+						<div class="blog-preview__crop">
+							<strong class="blog-preview__title"><a href="#">Мы ведем дело от Вашего лица, берем на себя всю бумажную</a></strong>
+							<div class="blog-preview__descr text-small">Мы ведем дело от Вашего лица, берем на себя всю бумажную работу и переговоры с участниками процесса возврата средств.</div>
+						</div>
+						<a href="#" class="link blog-preview__more">Подробнее</a>
+					</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_m grid-12_xxs">
+				<div class="blog-preview">
+					<a href="#">
+						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
+					</a>
+					<div class="blog-preview__content">
+						<div class="blog-preview__crop">
+							<strong class="blog-preview__title"><a href="#">Мы ведем дело от Вашего лица, берем на себя всю бумажную</a></strong>
+							<div class="blog-preview__descr text-small">Мы ведем дело от Вашего лица, берем на себя всю бумажную работу и переговоры с участниками процесса возврата средств.</div>
+						</div>
+						<a href="#" class="link blog-preview__more">Подробнее</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
 
 <?php include('footer.php'); ?>

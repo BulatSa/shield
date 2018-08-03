@@ -137,6 +137,8 @@ h4,.h4{
 	border-bottom: 2px dotted currentColor;
 	transition: all 0.3s ease;
 	text-decoration: none !important;
+	padding-bottom: 2px;
+	font-size: 14px;
 
 	&:hover{
 		color: $orange;
@@ -145,6 +147,42 @@ h4,.h4{
 	&:focus{
 		outline: none;
 		color: $orange;
+	}
+
+	&--big{
+		font-size: 16px;
+	}
+}
+
+.link-icon{
+	display: inline-flex;
+	align-items: center;
+	color: $blue;
+	text-decoration: none !important;
+	transition: all 0.3s ease;
+	white-space: nowrap;
+	font-size: 14px;
+
+	&:hover{
+		color: $orange;
+	}
+
+	&:focus{
+		outline: none;
+		color: $orange;
+	}
+
+	i{
+		margin-right: $pad-xxs;
+	}
+
+	span{
+		border-bottom: 2px dotted currentColor;
+		padding-bottom: 2px;
+	}
+
+	&--big{
+		font-size: 16px;
 	}
 }
 
@@ -224,6 +262,21 @@ h4,.h4{
 				font-size: 20px;
 			}
 		}
+	}
+
+	&--line{
+		display: flex;
+		align-items: flex-end;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	&__left{
+		padding-right: $pad-xs;
+	}
+
+	&__right{
+		margin-top: $pad-xxs;
 	}
 }
 
