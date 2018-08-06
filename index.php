@@ -653,4 +653,40 @@
 </section>
 
 
+<section class="s-big-form def-sec">
+	<div class="container">
+
+		<div class="big-form-block">
+			<div class="h4 big-form-block__title">Задайте вопрос и <span class="blue">получите ответ в течение 2 минут</span></div>
+			<div class="text-big big-form-block__descr">Позвоните или заполните форму — юрист свяжется с вами, чтобы проконсультировать по вашему делу.</div>
+			<form class="ajax-form big-form">
+				<input type="hidden" value="Оставили вопрос" name="form_subject">
+				<input type="hidden" value="1" name="has_captcha">
+				<div class="row">
+					<div class="grid-4 grid-12_m">
+						<input type="text" class="input-text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
+					</div>
+					<div class="grid-4 grid-12_m">
+						<input type="tel" class="input-text" name="user_tel" placeholder="Телефон | Для оценки дела*" data-label="Телефон"  data-req="true">
+					</div>
+					<div class="grid-4 grid-12_m">
+						<input type="email" class="input-text" name="user_email" placeholder="E-mail | Для отправки документов*" data-label="Email" data-req="true">
+					</div>
+				</div>
+				<textarea name="user_comment" class="input-textarea" placeholder="Ваш вопрос" data-label="Комментарий"></textarea>
+				<div class="g-recaptcha"></div>
+				<footer class="big-form__footer">
+					<label class="style-check-ios">
+						<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+						<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+					</label>
+					<button type="submit" class="btn">Отправить</button>
+				</footer>
+			</form>
+		</div>
+
+	</div>
+</section>
+
+
 <?php include('footer.php'); ?>

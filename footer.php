@@ -70,10 +70,10 @@
 		<p class="h4 modal__title"><span class="blue">Оставьте заявку</span> на&nbsp;бесплатную консультацию</p>
 		<form class="ajax-form">
 			<input type="hidden" value="Заявка на консультацию" name="form_subject">
+			<input type="hidden" value="1" name="has_captcha">
 			<input type="text" class="input-text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
 			<input type="tel" class="input-text" name="user_tel" placeholder="Телефон | Для оценки дела*" data-label="Телефон"  data-req="true">
 			<input type="email" class="input-text" name="user_email" placeholder="E-mail | Для отправки документов*" data-label="Email" data-req="true">
-			<input type="hidden" value="1" name="has_captcha">
 			<div class="g-recaptcha"></div>
 			<label class="style-check-ios">
 				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
@@ -87,9 +87,9 @@
 		<p class="h4 modal__title"><span class="blue">Обратный звонок</span></p>
 		<form class="ajax-form">
 			<input type="hidden" value="Обратный звонок" name="form_subject">
+			<input type="hidden" value="1" name="has_captcha">
 			<input type="text" class="input-text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
 			<input type="tel" class="input-text" name="user_tel" placeholder="Телефон | Для оценки дела*" data-label="Телефон"  data-req="true">
-			<input type="hidden" value="1" name="has_captcha">
 			<div class="g-recaptcha"></div>
 			<label class="style-check-ios">
 				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
@@ -103,10 +103,10 @@
 		<p class="h4 modal__title">Начните возврат своих денег <span class="blue">прямо сейчас</span></p>
 		<form class="ajax-form">
 			<input type="hidden" value="Новая заявка" name="form_subject">
+			<input type="hidden" value="1" name="has_captcha">
 			<input type="text" class="input-text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
 			<input type="tel" class="input-text" name="user_tel" placeholder="Телефон | Для оценки дела*" data-label="Телефон"  data-req="true">
 			<input type="email" class="input-text" name="user_email" placeholder="E-mail | Для отправки документов*" data-label="Email" data-req="true">
-			<input type="hidden" value="1" name="has_captcha">
 			<div class="g-recaptcha"></div>
 			<label class="style-check-ios">
 				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">

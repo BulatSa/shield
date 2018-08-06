@@ -18,6 +18,9 @@ label{cursor: pointer;}
 	@include res(s){
 		margin-bottom: 15px;
 	}
+	@include res(xs){
+		padding: 13px 10px;
+	}
 
 	&::placeholder {
 		font-size: 14px;
