@@ -3,6 +3,7 @@
 @import 'base/placeholders';
 
 @import 'vendors/fancybox';
+@import 'vendors/flickity';
 
 @import 'base/reset';
 @import 'base/fonts';
@@ -27,5 +28,7 @@
 @import 'modules/tabs';
 @import 'modules/video-preview';
 @import 'modules/blog-list';
+@import 'modules/sliders-styles';
+@import 'modules/review-slider';
 
 @import 'pages/home';

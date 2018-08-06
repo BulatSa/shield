@@ -274,3 +274,27 @@ $(function($){
 /***********************
 Tabs END
 ***********************/
+
+
+/***********************
+Sliders BEGIN
+***********************/
+$(function($){
+	$('.review-slider').flickity({
+		cellSelector: '.review-slide',
+		cellAlign: 'left',
+		contain: true,
+		imagesLoaded: true,
+		pageDots: false,
+		wrapAround: true,
+		arrowShape: {
+			x0: 10,
+			x1: 60, y1: 50,
+			x2: 65, y2: 45,
+			x3: 20
+		}
+	});
+});
+/***********************
+Sliders END
+***********************/

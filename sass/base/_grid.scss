@@ -109,6 +109,10 @@
 		padding-top: $pad-l;
 		padding-bottom: $pad-l;
 	}
+	@include res(xs){
+		padding-top: $pad-m;
+		padding-bottom: $pad-m;
+	}
 }
 
 .def-sec-bottom {
@@ -116,12 +120,18 @@
 	@include res(xl) {
 		padding-bottom: $pad-l;
 	}
+	@include res(xs){
+		padding-bottom: $pad-m;
+	}
 }
 
 .def-sec-top {
 	padding-top: 100px;
 	@include res(xl) {
 		padding-top: $pad-l;
+	}
+	@include res(xs){
+		padding-top: $pad-m;
 	}
 }
 
