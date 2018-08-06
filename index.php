@@ -465,6 +465,23 @@
 
 
 <section class="s-earth">
+	<div class="earth-dots">
+		<div class="earth-dots__item"></div>
+		<div class="earth-dots__item"></div>
+		<div class="earth-dots__item"></div>
+		<div class="earth-dots__item"></div>
+		<div class="earth-dots__item"></div>
+		<div class="earth-dots__item"></div>
+		<div class="earth-dots__item"></div>
+		<div class="earth-dots__item"></div>
+		<div class="earth-dots__item"></div>
+		<div class="earth-dots__item"></div>
+		<div class="earth-dots__item"></div>
+		<div class="earth-dots__item"></div>
+		<div class="earth-dots__item"></div>
+		<div class="earth-dots__item"></div>
+		<div class="earth-dots__item"></div>
+	</div>
 	<div class="container">
 		<div class="row">
 			<div class="grid-6 grid-5_l grid-12_m"></div>
@@ -475,7 +492,7 @@
 				</div>
 
 				<div class="row">
-					<div class="grid-4 grid-12_xs">
+					<div class="grid-4 grid-6_xs">
 						<div class="uptext">Северо-запад</div>
 						<div>Архангельск (51)</div>
 						<div>Калининград (278)</div>
@@ -495,7 +512,7 @@
 						<div>Симферополь</div>
 						<div>Сочи</div>
 					</div>
-					<div class="grid-4 grid-12_xs">
+					<div class="grid-4 grid-6_xs">
 						<div class="uptext">Восточная  Европа</div>
 						<div>Варшава (1)</div>
 						<div>Днепр (4)</div>
@@ -515,7 +532,7 @@
 						<div>Томск (87)</div>
 						<div>Улан-Удэ (23)</div>
 					</div>
-					<div class="grid-4 grid-12_xs">
+					<div class="grid-4 grid-6_xs">
 						<div class="uptext">Приволжье</div>
 						<div>Ижевск (161)</div>
 						<div>Казань (162)</div>
@@ -653,6 +670,13 @@
 </section>
 
 
+<section class="s-poll">
+	<div class="container">
+
+	</div>
+</section>
+
+
 <section class="s-big-form def-sec">
 	<div class="container">
 
@@ -674,14 +698,15 @@
 					</div>
 				</div>
 				<textarea name="user_comment" class="input-textarea" placeholder="Ваш вопрос" data-label="Комментарий"></textarea>
-				<div class="g-recaptcha"></div>
 				<footer class="big-form__footer">
-					<label class="style-check-ios">
-						<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
-						<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
-					</label>
+
+					<div class="g-recaptcha"></div>
 					<button type="submit" class="btn">Отправить</button>
 				</footer>
+				<label class="style-check-ios">
+					<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+					<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+				</label>
 			</form>
 		</div>
 

@@ -300,3 +300,7 @@ h4,.h4{
 		left: $pad-xs;
 	}
 }
+
+
+::-moz-selection { background: $orange; }
+::selection { background: $orange; }
