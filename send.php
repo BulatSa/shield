@@ -6,7 +6,7 @@ $tofile = $subject . ";";
 
 //recaptcha
 // если рекапча есть в форме, то посылаем запрос гуглу на проверку. Если что-то не так то не выполняем больше ничег ов этом скрипте
-if (!empty($_POST['has_captcha'])):
+if (isset($_POST['g-recaptcha-response'])):
 	$recaptcha = $_POST['g-recaptcha-response'];
 	if(!empty($recaptcha)) :
 		$secret = '6LeinmcUAAAAAMFhccNd24XniBp35DKJgTRN6By9';
@@ -34,7 +34,7 @@ endif;
 
 foreach ($_POST as $input_name => $input_val) {
 	$input_val = htmlspecialchars(strip_tags(trim($input_val)));
-	if ($input_name != "form_subject" && $input_name != "g-recaptcha-response" && $input_name != "user_policy" && $input_name != "has_captcha") {
+	if ($input_name != "form_subject" && $input_name != "g-recaptcha-response" && $input_name != "user_policy") {
 		if ( !strpos($input_name, '_label')){
 			$input_label = $input_name . '_label';
 			if (!empty($_POST[$input_label])) {

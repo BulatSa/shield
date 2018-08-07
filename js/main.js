@@ -51,14 +51,7 @@ $(function () {
 				data: form_data,
 				success: (function (result) {
 					console.log(result);
-					if (result.indexOf("empty recaptcha") !== -1) {
-						captcha.addClass('error');
-						setTimeout(function () {
-							captcha.removeClass('error');
-						},2000);
-						return;
-					}
-					if (result.indexOf("fail recaptcha") !== -1) {
+					if (result.indexOf("recaptcha") !== -1) {
 						captcha.addClass('error');
 						setTimeout(function () {
 							captcha.removeClass('error');

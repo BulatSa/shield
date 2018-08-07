@@ -384,7 +384,6 @@
 							<input type="text" class="input-text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
 							<input type="tel" class="input-text" name="user_tel" placeholder="Телефон | Для оценки дела*" data-label="Телефон"  data-req="true">
 							<input type="email" class="input-text" name="user_email" placeholder="E-mail | Для отправки документов*" data-label="Email" data-req="true">
-							<input type="hidden" value="1" name="has_captcha">
 							<div class="g-recaptcha"></div>
 							<label class="style-check-ios">
 								<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
@@ -697,7 +696,6 @@
 							<input type="text" class="input-text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
 							<input type="tel" class="input-text" name="user_tel" placeholder="Телефон | Для оценки дела*" data-label="Телефон"  data-req="true">
 							<input type="email" class="input-text" name="user_email" placeholder="E-mail | Для отправки документов*" data-label="Email" data-req="true">
-							<input type="hidden" value="1" name="has_captcha">
 							<div class="g-recaptcha"></div>
 							<label class="style-check-ios">
 								<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
@@ -724,7 +722,6 @@
 			<div class="text-big big-form-block__descr">Позвоните или заполните форму — юрист свяжется с вами, чтобы проконсультировать по вашему делу.</div>
 			<form class="ajax-form big-form">
 				<input type="hidden" value="Оставили вопрос" name="form_subject">
-				<input type="hidden" value="1" name="has_captcha">
 				<div class="row">
 					<div class="grid-4 grid-12_m">
 						<input type="text" class="input-text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
