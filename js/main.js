@@ -314,9 +314,9 @@ $(function($){
 	}
 
 	function selectPollForm(){
-		$('.poll__questions').addClass('hide');
-		$('.poll__descriptions').addClass('hide');
+		$('.poll__content').addClass('hide');
 		$('.poll__form').addClass('active');
+		$('.poll-yes,.poll-no').addClass('hide');
 	}
 
 	selectPollStep(0);
@@ -329,7 +329,12 @@ $(function($){
 		} else {
 			selectPollStep(index+1);
 		}
-	})
+	});
+
+	$('.poll-no').on('click',function (e) {
+		e.preventDefault();
+		selectPollForm();
+	});
 });
 /***********************
 Poll END

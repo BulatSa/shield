@@ -672,22 +672,22 @@
 
 <section class="s-poll">
 	<div class="container">
-		<div class="poll row">
+		<div class="poll">
 
-			<div class="grid-3">
-				<button class="btn poll-yes">Да</button>
-			</div>
-
-			<div class="grid-6">
-				<div class="poll__questions">
-					<div class="poll__q active">Ваш брокер «слил» бюджет?</div>
-					<div class="poll__q">Ваш брокер «слил»</div>
-					<div class="poll__q">Ваш брокер «слил» бюджет? Слил</div>
-				</div>
-				<div class="poll__descriptions">
-					<div class="poll__d active">Мы поможем вернуть деньги. Для этого нужно доказать, что брокер нарушил условия договора и присвоил ваши средства себе.</div>
-					<div class="poll__d">Мы поможем вернуть деньги. Для этого нужно доказать</div>
-					<div class="poll__d">Мы поможем вернуть деньги. Для этого нужно доказать, что брокер нарушил условия договора</div>
+			<button class="btn poll-yes">Да</button>
+			
+			<div class="poll__center">
+				<div class="poll__content">
+					<div class="poll__questions">
+						<div class="poll__q active">Ваш брокер «слил» бюджет?</div>
+						<div class="poll__q">Ваш брокер «слил»</div>
+						<div class="poll__q">Ваш брокер «слил» бюджет? Слил «слил» бюджет?</div>
+					</div>
+					<div class="poll__descriptions">
+						<div class="poll__d active">Мы поможем вернуть деньги. Для этого нужно доказать, что брокер нарушил условия договора и присвоил ваши средства себе.</div>
+						<div class="poll__d">Мы поможем вернуть деньги. Для этого нужно доказать</div>
+						<div class="poll__d">Мы поможем вернуть деньги. Для этого нужно доказать, что брокер нарушил условия договора</div>
+					</div>
 				</div>
 				<div class="poll__form">
 					<div class="order-block">
@@ -709,9 +709,7 @@
 				</div>
 			</div>
 
-			<div class="grid-3">
-				<button class="btn poll-no">Нет</button>
-			</div>
+			<button class="btn poll-no">Нет</button>
 
 		</div>
 	</div>
