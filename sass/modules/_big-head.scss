@@ -13,7 +13,28 @@
 	.container {
 		background: linear-gradient(to right, #f9f9f9 0%, transparentize(#f9f9f9,1) 70%);
 		@include res(m) {
-			background: transparentize(#f9f9f9,0.25);
+			background: transparentize(#f9f9f9,0.2);
+		}
+	}
+	&--main {
+		.big-head {
+			@include res(s) {
+				padding-top: $pad-xs;
+				padding-bottom: $pad-xs;
+			}
+		}
+	}
+	&--white {
+		.big-head__info {
+			color: #fff;
+		}
+	}
+	&--about {
+		.container {
+			background: linear-gradient(to right, #362320 0%, transparentize(#362320,1) 70%);
+			@include res(m) {
+				background: transparentize(#362320,0.2);
+			}
 		}
 	}
 }
@@ -32,7 +53,7 @@
 	@include res(s) {
 		display: block;
 		align-items: initial;
-		padding-top: $pad-xs;
+		padding-top: $pad-m;
 		padding-bottom: $pad-xs;
 	}
 }

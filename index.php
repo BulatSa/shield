@@ -1,6 +1,6 @@
 ﻿<?php include('header.php'); ?>
 
-<section class="big-head-sec" style="background-image: url('../img/big-head/bg-main.jpg')">
+<section class="big-head-sec big-head-sec--main" style="background-image: url('../img/big-head/bg-main.jpg')">
 	<div class="container">
 		<div class="big-head">
 			<div class="big-head__charge">
