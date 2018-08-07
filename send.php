@@ -9,7 +9,7 @@ $tofile = $subject . ";";
 if (isset($_POST['g-recaptcha-response'])):
 	$recaptcha = $_POST['g-recaptcha-response'];
 	if(!empty($recaptcha)) :
-		$secret = '6LeinmcUAAAAAMFhccNd24XniBp35DKJgTRN6By9';
+		$secret = '6LdxvGgUAAAAAN_VjEcZcUMP4SCyGChfAsfs1EiM';
 		$url = "https://www.google.com/recaptcha/api/siteverify?secret=".$secret ."&response=".$recaptcha."&remoteip=".$_SERVER['REMOTE_ADDR'];
 		$curl = curl_init();
 		curl_setopt($curl, CURLOPT_URL, $url);
@@ -19,6 +19,7 @@ if (isset($_POST['g-recaptcha-response'])):
 		$curlData = curl_exec($curl);
 		curl_close($curl);
 		$curlData = json_decode($curlData, true);
+		print_r($curlData);
 
 		if(!$curlData['success']) :
 			echo "fail recaptcha";
