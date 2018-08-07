@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="424" height="452.01" viewBox="0 0 424 452.01">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <title>circle</title>
+  <g id="Слой_2" data-name="Слой 2">
+    <g id="Слой_1-2" data-name="Слой 1">
+      <path class="cls-1" d="M212,0C329.08,0,424,94.91,424,212A211.86,211.86,0,0,1,323.05,392.62c-32.3,19.9-112,60.05-111,59.38-1,0-79.63-39.75-112.16-60.07A211.84,211.84,0,0,1,0,212C0,94.91,94.92,0,212,0Z"/>
+    </g>
+  </g>
+</svg>

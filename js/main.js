@@ -298,3 +298,39 @@ $(function($){
 /***********************
 Sliders END
 ***********************/
+
+
+/***********************
+Poll BEGIN
+***********************/
+$(function($){
+	var pollQuestion = $('.poll__q');
+	var pollDescr = $('.poll__d');
+	var count = pollDescr.length;
+
+	function selectPollStep(index) {
+		pollQuestion.removeClass('active').eq(index).addClass('active');
+		pollDescr.removeClass('active').eq(index).addClass('active');
+	}
+
+	function selectPollForm(){
+		$('.poll__questions').addClass('hide');
+		$('.poll__descriptions').addClass('hide');
+		$('.poll__form').addClass('active');
+	}
+
+	selectPollStep(0);
+
+	$('.poll-yes').on('click',function (e) {
+		e.preventDefault();
+		var index = $('.poll__q.active').index();
+		if (index+1 > count-1){
+			selectPollForm();
+		} else {
+			selectPollStep(index+1);
+		}
+	})
+});
+/***********************
+Poll END
+***********************/
