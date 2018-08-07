@@ -1,0 +1,107 @@
+.s-review-slider{
+	background: $gray-bg;
+}
+
+.review-slider-wrap{
+	position: relative;
+}
+
+.review-slider{
+	@include res(l){
+		margin-bottom: 40px;
+	}
+
+	.flickity-prev-next-button{
+		top: 67px;
+		transform: none;
+		z-index: 20;
+		@include res(l){
+			top: initial;
+			bottom: -60px;
+		}
+
+		&.previous{
+			left: calc(25% - 50px);
+			@include res(l){
+				left: calc(50% - 20px - 20px);
+			}
+		}
+
+		&.next{
+			left: calc(50% - 10px);
+			@include res(l){
+				left: calc(50% - 20px + 20px);
+			}
+		}
+	}
+}
+
+.review-slide{
+	width: 25%;
+	padding: 0 20px;
+	height: 300px;
+	@include res(l){
+		padding: 0 10px;
+		height: auto;
+	}
+	@include res(m){
+		width: calc(100% / 3);
+		padding: 0 5px;
+	}
+	@include res(xs){
+		width: 50%;
+	}
+	@include res(xxs){
+		width: 100%;
+	}
+
+	.video-preview{
+		margin-bottom: $pad-xs;
+	}
+
+	&__descr{
+		font-size: 14px;
+		color: $gray-text;
+		line-height: 1.2;
+		@include res(xl){
+			font-size: 12px;
+		}
+		@include res(l){
+			font-size: 10px;
+		}
+
+		span{
+			display: block;
+			margin-bottom: 8px;
+		}
+	}
+}
+
+.review-slider-text{
+	position: absolute;
+	z-index: 10;
+	left: 25%;
+	top: 0;
+	background: $gray-bg;
+	width: 25%;
+	height: 300px;
+	padding: 0 15px;
+	@include res(xl){
+		font-size: 14px;
+	}
+	@include res(l){
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+		margin-bottom: $pad-s;
+		padding: 0 15px;
+	}
+	@include res(m){
+		padding: 0 5px;
+	}
+	@include res(xs){
+		padding: 0;
+	}
+}

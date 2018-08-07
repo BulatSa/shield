@@ -248,3 +248,89 @@ $(function(){
 /***********************
  Mob menu END
  ***********************/
+
+
+/***********************
+Tabs BEGIN
+***********************/
+$(function($){
+	$('.tabs button').on('click',function (e) {
+		e.preventDefault();
+		var thisBtn = $(this);
+		var thisTabs = thisBtn.parents('.tabs');
+		var index = thisBtn.index();
+		selectTab(thisTabs,index);
+	});
+
+	function selectTab(tabs,index) {
+		tabs.find('.tabs__links button').removeClass('active').eq(index).addClass('active');
+		tabs.find('.tabs__content').removeClass('active').eq(index).addClass('active');
+	}
+
+	$('.tabs').each(function () {
+		selectTab($(this),0);
+	})
+});
+/***********************
+Tabs END
+***********************/
+
+
+/***********************
+Sliders BEGIN
+***********************/
+$(function($){
+	$('.review-slider').flickity({
+		cellSelector: '.review-slide',
+		cellAlign: 'left',
+		contain: true,
+		imagesLoaded: true,
+		pageDots: false,
+		wrapAround: true,
+		arrowShape: {
+			x0: 10,
+			x1: 60, y1: 50,
+			x2: 65, y2: 45,
+			x3: 20
+		}
+	});
+});
+/***********************
+Sliders END
+***********************/
+
+
+/***********************
+Poll BEGIN
+***********************/
+$(function($){
+	var pollQuestion = $('.poll__q');
+	var pollDescr = $('.poll__d');
+	var count = pollDescr.length;
+
+	function selectPollStep(index) {
+		pollQuestion.removeClass('active').eq(index).addClass('active');
+		pollDescr.removeClass('active').eq(index).addClass('active');
+	}
+
+	function selectPollForm(){
+		$('.poll__questions').addClass('hide');
+		$('.poll__descriptions').addClass('hide');
+		$('.poll__form').addClass('active');
+	}
+
+	selectPollStep(0);
+
+	$('.poll-yes').on('click',function (e) {
+		e.preventDefault();
+		var index = $('.poll__q.active').index();
+		if (index+1 > count-1){
+			selectPollForm();
+		} else {
+			selectPollStep(index+1);
+		}
+	})
+});
+/***********************
+Poll END
+***********************/

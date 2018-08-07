@@ -1,0 +1,59 @@
+.s-panel-section{
+	padding: $pad-m 0;
+	@include res(s){
+		padding: $pad-s 0;
+	}
+}
+
+.panel{
+	background: #FFF;
+	@extend %shadow-for-white-bg;
+	height: 100%;
+	border-radius: 10px;
+	@include res(s){
+		max-width: 363px;
+		height: auto;
+		margin-bottom: $pad-s;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&__img{
+		display: block;
+		width: 100%;
+		height: auto;
+		border-radius: 10px 10px 0 0;
+	}
+
+	&__content{
+		padding: $pad-xs $pad-xs;
+		@include res(l){
+			padding: $pad-xs $pad-xs;
+			font-size: 14px;
+		}
+	}
+
+	.h2{
+		margin-bottom: $pad-xxs;
+		@include res(xl) {
+			font-size: 30px;
+		}
+		@include res(l) {
+			font-size: 20px;
+		}
+		@include res(s) {
+			font-size: 20px;
+		}
+		small{
+			display: block;
+			margin-bottom: 4px;
+			font-size: 14px;
+			text-transform: uppercase;
+			letter-spacing: 0.05em;
+		}
+	}
+
+	&__text{
+		margin-bottom: $pad-xs;
+	}
+}

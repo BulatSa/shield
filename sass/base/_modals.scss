@@ -15,7 +15,9 @@
 	&__title{
 		text-align: center;
 		margin-bottom: 20px;
-		padding: 0 30px;
+		@include res(s){
+			padding: 0 20px;
+		}
 	}
 
 	&__descr{
@@ -24,10 +26,6 @@
 		@include res(s){
 			font-size: 14px;
 		}
-	}
-
-	.style-check-ios{
-		margin-top: 10px;
 	}
 
 	.btn{

@@ -3,6 +3,7 @@
 @import 'base/placeholders';
 
 @import 'vendors/fancybox';
+@import 'vendors/flickity';
 
 @import 'base/reset';
 @import 'base/fonts';
@@ -18,5 +19,18 @@
 @import 'modules/footer';
 @import 'modules/social-list';
 @import 'modules/big-head';
+@import 'modules/panel-section';
+@import 'modules/triggers';
+@import 'modules/tariff-list';
+@import 'modules/s-order';
+@import 'modules/s-earth';
+@import 'modules/about-video';
+@import 'modules/tabs';
+@import 'modules/video-preview';
+@import 'modules/blog-list';
+@import 'modules/sliders-styles';
+@import 'modules/review-slider';
+@import 'modules/big-form';
+@import 'modules/poll';
 
 @import 'pages/home';
