@@ -1,12 +1,27 @@
 /***********************
  отправка формы в php BEGIN
  ***********************/
+// captcha
+var captchaString = "";
+grecaptcha.ready(function() {
+	grecaptcha.execute('6LdxvGgUAAAAAPgRwPtMm1yE2VjBka-o6kwGY54l')
+		.then(function(token) {
+			console.log(token);
+			captchaString = token;
+		});
+});
+// captcha
+
 $(function () {
 	$(".ajax-form").on("submit", function (event) {
 		var form = $(this);
 		var send = true;
-		var captcha = form.find('.g-recaptcha');
 		event.preventDefault();
+		grecaptcha.execute('6LdxvGgUAAAAAPgRwPtMm1yE2VjBka-o6kwGY54l')
+			.then(function(token) {
+				// console.log(token);
+				captchaString = token;
+			});
 
 		$(this).find("[data-req='true']").each(function () {
 			if ($(this).val() === "") {
@@ -32,12 +47,15 @@ $(function () {
 		});
 
 		var form_data = new FormData(this);
+		if (captchaString.length > 0){
+			form_data.append("g-recaptcha-response", captchaString);
+		}
 
 		$("[data-label]").each(function () {
 			var input_name = $(this).attr('name');
 			var input_label__name = input_name + '_label';
 			var input_label__value = $(this).data('label').toString();
-			form_data.append(input_label__name, input_label__value)
+			form_data.append(input_label__name, input_label__value);
 		});
 
 		if (send === true) {
@@ -51,18 +69,8 @@ $(function () {
 				data: form_data,
 				success: (function (result) {
 					console.log(result);
-					if (result.indexOf("empty recaptcha") !== -1) {
-						captcha.addClass('error');
-						setTimeout(function () {
-							captcha.removeClass('error');
-						},2000);
-						return;
-					}
-					if (result.indexOf("fail recaptcha") !== -1) {
-						captcha.addClass('error');
-						setTimeout(function () {
-							captcha.removeClass('error');
-						},2000);
+					if (result.indexOf("recaptcha") !== -1) {
+						$.fancybox.open({src: '#modal-error'});
 						return;
 					}
 					if (result.indexOf("Mail FAIL") !== -1) {
@@ -314,9 +322,9 @@ $(function($){
 	}
 
 	function selectPollForm(){
-		$('.poll__questions').addClass('hide');
-		$('.poll__descriptions').addClass('hide');
+		$('.poll__content').addClass('hide');
 		$('.poll__form').addClass('active');
+		$('.poll-yes,.poll-no').addClass('hide');
 	}
 
 	selectPollStep(0);
@@ -329,7 +337,12 @@ $(function($){
 		} else {
 			selectPollStep(index+1);
 		}
-	})
+	});
+
+	$('.poll-no').on('click',function (e) {
+		e.preventDefault();
+		selectPollForm();
+	});
 });
 /***********************
 Poll END

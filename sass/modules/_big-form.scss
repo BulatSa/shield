@@ -46,20 +46,16 @@
 			max-width: 100%;
 			flex-shrink: 0;
 			margin-left: $pad-s;
-			margin-bottom: $pad-xs;
 			@include res(m){
 				margin-left: 0;
 			}
 		}
 	}
 
-	.g-recaptcha > div{
-		@include res(m){
-			margin: 0;
-		}
-	}
-
 	.style-check-ios{
 		margin-bottom: 0;
+		@include res(m){
+			margin-bottom: $pad-xs;
+		}
 	}
 }

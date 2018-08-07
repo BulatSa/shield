@@ -384,8 +384,6 @@
 							<input type="text" class="input-text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
 							<input type="tel" class="input-text" name="user_tel" placeholder="Телефон | Для оценки дела*" data-label="Телефон"  data-req="true">
 							<input type="email" class="input-text" name="user_email" placeholder="E-mail | Для отправки документов*" data-label="Email" data-req="true">
-							<input type="hidden" value="1" name="has_captcha">
-							<div class="g-recaptcha"></div>
 							<label class="style-check-ios">
 								<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
 								<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
@@ -672,22 +670,22 @@
 
 <section class="s-poll">
 	<div class="container">
-		<div class="poll row">
+		<div class="poll">
 
-			<div class="grid-3">
-				<button class="btn poll-yes">Да</button>
-			</div>
-
-			<div class="grid-6">
-				<div class="poll__questions">
-					<div class="poll__q active">Ваш брокер «слил» бюджет?</div>
-					<div class="poll__q">Ваш брокер «слил»</div>
-					<div class="poll__q">Ваш брокер «слил» бюджет? Слил</div>
-				</div>
-				<div class="poll__descriptions">
-					<div class="poll__d active">Мы поможем вернуть деньги. Для этого нужно доказать, что брокер нарушил условия договора и присвоил ваши средства себе.</div>
-					<div class="poll__d">Мы поможем вернуть деньги. Для этого нужно доказать</div>
-					<div class="poll__d">Мы поможем вернуть деньги. Для этого нужно доказать, что брокер нарушил условия договора</div>
+			<button class="btn poll-yes">Да</button>
+			
+			<div class="poll__center">
+				<div class="poll__content">
+					<div class="poll__questions">
+						<div class="poll__q active">Ваш брокер «слил» бюджет?</div>
+						<div class="poll__q">Ваш брокер «слил»</div>
+						<div class="poll__q">Ваш брокер «слил» бюджет? Слил «слил» бюджет?</div>
+					</div>
+					<div class="poll__descriptions">
+						<div class="poll__d active">Мы поможем вернуть деньги. Для этого нужно доказать, что брокер нарушил условия договора и присвоил ваши средства себе.</div>
+						<div class="poll__d">Мы поможем вернуть деньги. Для этого нужно доказать</div>
+						<div class="poll__d">Мы поможем вернуть деньги. Для этого нужно доказать, что брокер нарушил условия договора</div>
+					</div>
 				</div>
 				<div class="poll__form">
 					<div class="order-block">
@@ -697,8 +695,6 @@
 							<input type="text" class="input-text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
 							<input type="tel" class="input-text" name="user_tel" placeholder="Телефон | Для оценки дела*" data-label="Телефон"  data-req="true">
 							<input type="email" class="input-text" name="user_email" placeholder="E-mail | Для отправки документов*" data-label="Email" data-req="true">
-							<input type="hidden" value="1" name="has_captcha">
-							<div class="g-recaptcha"></div>
 							<label class="style-check-ios">
 								<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
 								<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
@@ -709,9 +705,7 @@
 				</div>
 			</div>
 
-			<div class="grid-3">
-				<button class="btn poll-no">Нет</button>
-			</div>
+			<button class="btn poll-no">Нет</button>
 
 		</div>
 	</div>
@@ -726,7 +720,6 @@
 			<div class="text-big big-form-block__descr">Позвоните или заполните форму — юрист свяжется с вами, чтобы проконсультировать по вашему делу.</div>
 			<form class="ajax-form big-form">
 				<input type="hidden" value="Оставили вопрос" name="form_subject">
-				<input type="hidden" value="1" name="has_captcha">
 				<div class="row">
 					<div class="grid-4 grid-12_m">
 						<input type="text" class="input-text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
@@ -740,14 +733,12 @@
 				</div>
 				<textarea name="user_comment" class="input-textarea" placeholder="Ваш вопрос" data-label="Комментарий"></textarea>
 				<footer class="big-form__footer">
-
-					<div class="g-recaptcha"></div>
+					<label class="style-check-ios">
+						<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+						<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+					</label>
 					<button type="submit" class="btn">Отправить</button>
 				</footer>
-				<label class="style-check-ios">
-					<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
-					<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
-				</label>
 			</form>
 		</div>
 
