@@ -1,0 +1,16 @@
+.s-blog-nav{
+	z-index: 2;
+
+	a{
+		width: 220px;
+		margin: 0;
+		@include res(s){
+			width: auto;
+		}
+	}
+}
+
+.s-blog-list{
+	background: $gray-bg;
+	padding: $pad-m 0 $pad-l;
+}

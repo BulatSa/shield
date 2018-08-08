@@ -1,0 +1,59 @@
+.pagination-wrap{
+	text-align: center;
+}
+
+.pagination{
+	display: inline-flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-wrap: wrap;
+
+	button,a{
+		position: relative;
+		background: transparent;
+		border: none;
+		display: block;
+		@extend .uptext;
+		color: #d7d5d3;
+		padding: 10px 20px;
+		text-align: center;
+		cursor: pointer;
+		transition: all 0.3s ease;
+		border-bottom: 3px solid #d7d5d3;
+		@include res(s){
+			font-size: 12px;
+			padding: 10px 15px;
+		}
+
+		&:after{
+			content: '';
+			position: absolute;
+			bottom: -8px;
+			left: 0;
+			height: 8px;
+			width: 100%;
+			background: $blue;
+			border-radius: 4px;
+			transform: scale3d(0,1,1);
+			transform-origin: left center;
+			transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);;
+		}
+
+		&:hover{
+			color: $color-text;
+		}
+
+		&:focus{
+			outline: none;
+			color: $color-text;
+		}
+
+		&.active{
+			color: $color-text;
+
+			&:after{
+				transform: none;
+			}
+		}
+	}
+}
