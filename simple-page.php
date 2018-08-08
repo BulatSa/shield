@@ -2,7 +2,7 @@
 
 <section class="s-head-simple">
 	<div class="container">
-		<h1 class="h1">Блог</h1>
+		<h1 class="h1">Соглашение на обработку персональных данных</h1>
 	</div>
 </section>
 
