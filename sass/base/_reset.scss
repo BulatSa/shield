@@ -16,3 +16,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 
 img{border:none;}
+
+.grecaptcha-badge{
+	z-index: 50;
+	opacity: 0.2;
+}
