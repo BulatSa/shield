@@ -44,7 +44,6 @@
 	max-width: 610px;
 	min-height: 500px;
 	display: flex;
-	align-items: center;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	@include res(l) {
@@ -152,5 +151,28 @@
 	img {
 		display: block;
 		max-width: 100%;
+	}
+}
+
+.big-head__time{
+	display: block;
+	margin-bottom: $pad-xxs;
+}
+
+.big-head__share{
+	display: flex;
+	align-items: center;
+	padding-top: $pad-xs;
+	@include res(m){
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.uptext{
+		margin-right: $pad-xs;
+		@include res(m){
+			margin-bottom: $pad-xxs;
+			font-size: 12px;
+		}
 	}
 }

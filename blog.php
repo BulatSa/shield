@@ -23,7 +23,21 @@
 		<div class="row-big blog-list">
 			<div class="grid-3 grid-6_m grid-12_xxs">
 				<div class="blog-preview">
-					<a href="#">
+					<a href="/blog-detail.php">
+						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
+					</a>
+					<div class="blog-preview__content">
+						<div class="blog-preview__crop">
+							<strong class="blog-preview__title"><a href="/blog-detail.php">Статья первая</a></strong>
+							<div class="blog-preview__descr text-small">Мы ведем дело от Вашего лица, берем на себя всю бумажную работу и переговоры с участниками процесса возврата средств.</div>
+						</div>
+						<a href="/blog-detail.php" class="link blog-preview__more">Подробнее</a>
+					</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_m grid-12_xxs">
+				<div class="blog-preview">
+					<a href="/blog-detail.php">
 						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
 					</a>
 					<div class="blog-preview__content">
@@ -37,21 +51,7 @@
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xxs">
 				<div class="blog-preview">
-					<a href="#">
-						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
-					</a>
-					<div class="blog-preview__content">
-						<div class="blog-preview__crop">
-							<strong class="blog-preview__title"><a href="#">Статья первая</a></strong>
-							<div class="blog-preview__descr text-small">Мы ведем дело от Вашего лица, берем на себя всю бумажную работу и переговоры с участниками процесса возврата средств.</div>
-						</div>
-						<a href="#" class="link blog-preview__more">Подробнее</a>
-					</div>
-				</div>
-			</div>
-			<div class="grid-3 grid-6_m grid-12_xxs">
-				<div class="blog-preview">
-					<a href="#">
+					<a href="/blog-detail.php">
 						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
 					</a>
 					<div class="blog-preview__content">
@@ -65,7 +65,7 @@
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xxs">
 				<div class="blog-preview">
-					<a href="#">
+					<a href="/blog-detail.php">
 						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
 					</a>
 					<div class="blog-preview__content">
@@ -79,7 +79,7 @@
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xxs">
 				<div class="blog-preview">
-					<a href="#">
+					<a href="/blog-detail.php">
 						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
 					</a>
 					<div class="blog-preview__content">
@@ -93,7 +93,7 @@
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xxs">
 				<div class="blog-preview">
-					<a href="#">
+					<a href="/blog-detail.php">
 						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
 					</a>
 					<div class="blog-preview__content">
@@ -107,7 +107,7 @@
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xxs">
 				<div class="blog-preview">
-					<a href="#">
+					<a href="/blog-detail.php">
 						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
 					</a>
 					<div class="blog-preview__content">
@@ -121,7 +121,7 @@
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xxs">
 				<div class="blog-preview">
-					<a href="#">
+					<a href="/blog-detail.php">
 						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
 					</a>
 					<div class="blog-preview__content">
@@ -135,7 +135,7 @@
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xxs">
 				<div class="blog-preview">
-					<a href="#">
+					<a href="/blog-detail.php">
 						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
 					</a>
 					<div class="blog-preview__content">
@@ -149,7 +149,7 @@
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xxs">
 				<div class="blog-preview">
-					<a href="#">
+					<a href="/blog-detail.php">
 						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
 					</a>
 					<div class="blog-preview__content">
@@ -163,7 +163,7 @@
 			</div>
 			<div class="grid-3 grid-6_m grid-12_xxs">
 				<div class="blog-preview">
-					<a href="#">
+					<a href="/blog-detail.php">
 						<img src="/img/home/blog.jpg" alt="1" class="blog-preview__img">
 					</a>
 					<div class="blog-preview__content">
@@ -176,7 +176,6 @@
 				</div>
 			</div>
 		</div>
-
 
 		<div class="pagination-wrap">
 			<div class="pagination">
