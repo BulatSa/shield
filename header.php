@@ -101,3 +101,14 @@
 		</div>
 	</div>
 </section>
+
+
+<section class="s-breadcrumbs">
+	<div class="container">
+		<ul class="breadcrumbs">
+			<li><a href="/">Главная</a></li>
+			<li><a href="/">Блог</a></li>
+			<li><span>Соглашение на обработку персональных данных</span></li>
+		</ul>
+	</div>
+</section>

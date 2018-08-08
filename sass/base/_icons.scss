@@ -23,6 +23,9 @@ i {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-right-arrow:before {
+	content: "\e913";
+}
 .icon-download:before {
 	content: "\e90e";
 }

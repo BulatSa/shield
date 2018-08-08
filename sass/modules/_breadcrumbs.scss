@@ -1,0 +1,54 @@
+.s-breadcrumbs{
+	white-space: nowrap;
+	position: absolute;
+	z-index: 5;
+	width: 100%;
+}
+
+.breadcrumbs{
+	position: relative;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 30px;
+	font-size: 14px;
+	@include res(l){
+		overflow: auto;
+	}
+	@include res(s){
+		padding-top: 15px;
+		font-size: 12px;
+	}
+
+	li{
+
+		&:after{
+			content: '\e913';
+			font-family: $font-icons;
+			font-size: 8px;
+			line-height: inherit;
+			margin: 0 $pad-xxs;
+			color: $gray-text;
+		}
+
+		a{
+			color: $gray-text;
+			transition: color 0.3s ease;
+
+			&:hover{
+				color: $orange;
+			}
+		}
+
+		&:last-child{
+			a,span{
+				color: $blue;
+			}
+			&:after{
+				display: none;
+			}
+		}
+	}
+}
