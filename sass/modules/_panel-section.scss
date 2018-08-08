@@ -30,21 +30,13 @@
 				margin-left: 15px;
 				margin-right: 15px;
 			}
-			@include res(m) {
-				width: calc(100% / 3 - 30px);
-			}
 			@include res(s) {
-				width: calc(100% / 2 - 20px);
-				margin-left: $gutter;
-				margin-right: $gutter;
-				margin-bottom: $pad-s;
-			}
-			@include res(xs) {
 				width: 100%;
 				max-width: 363px;
 				margin-left: auto;
 				margin-right: auto;
 			}
+
 		}
 	}
 }
