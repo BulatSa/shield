@@ -1,11 +1,14 @@
 .s-head-simple{
-	padding: 80px 0 $pad-m;
+	padding: 80px 0 $pad-s;
 	@include res(s){
-		padding: 50px 0 $pad-m;
+		padding: 50px 0 $pad-xs;
 	}
 
 	h1.h1{
-		margin-bottom: 10px;
+
+		&+.h3,&+h3{
+			margin-top: 10px;
+		}
 	}
 
 	.h3{
