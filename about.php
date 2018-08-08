@@ -14,34 +14,44 @@
 
 <section class="s-panel-section">
 	<div class="container">
-		<div class="row-big">
-			<div class="grid-4 grid-12_s">
+		<div class="sec-title sec-title--bigmargin">
+			<div class="uptext">Преимущества</div>
+			<div class="h1">Почему<br>нам можно доверять</div>
+		</div>
+		<div class="row">
+			<div class="grid-3 grid-6_m grid-12_s">
 				<div class="panel">
 					<img src="/img/home/panel-1.jpg" alt="1" class="panel__img">
 					<div class="panel__content">
-						<div class="h2"><small>Более</small>100.000.000 <span class="rub-small">c</span></div>
-						<p class="panel__text">Вернули своим клиентам за 2016 год. Это 91% успешных сделок.</p>
-						<a href="#" class="link link--big">Проверьте своего брокера</a>
+						<div class="h2"><small>Реальный практический опыт</small></div>
+						<p class="panel__text">Члены нашей команды сами пострадали от действий брокера-мошенника и знают, насколько это неприятная и тяжелая ситуация. Но мы нашли способ выйти из нее победителями и предлагаем вам не опускать руки и получить свои деньги назад благодаря chargeback.</p>
 					</div>
 				</div>
 			</div>
-			<div class="grid-4 grid-12_s">
+			<div class="grid-3 grid-6_m grid-12_s">
 				<div class="panel">
-					<img src="/img/home/panel-2.jpg" alt="1" class="panel__img">
+					<img src="/img/home/panel-1.jpg" alt="1" class="panel__img">
 					<div class="panel__content">
-						<div class="h2"><small>Комиссия</small>~5%</div>
-						<p class="panel__text">Рассчитываем стоимость услуг от суммы потерянного депозита.</p>
-						<a href="#" class="link link--big">Подробнее о тарифах</a>
+						<div class="h2"><small>Команда профессион-х юристов</small></div>
+						<p class="panel__text">Все наши сотрудники получили юридическое образование и практиковались в ведущих юридических фирмах России. Можете не сомневаться: ваше дело будет находится под контролем команды юристов с богатым опытом оспаривания брокерских транзакций.</p>
 					</div>
 				</div>
 			</div>
-			<div class="grid-4 grid-12_s">
+			<div class="grid-3 grid-6_m grid-12_s">
 				<div class="panel">
-					<img src="/img/home/panel-3.jpg" alt="1" class="panel__img">
+					<img src="/img/home/panel-1.jpg" alt="1" class="panel__img">
 					<div class="panel__content">
-						<div class="h2"><small>Свыше</small>1.200 клиентов </div>
-						<p class="panel__text">Получили деньги назад за 5 лет работы компании в России и СНГ.</p>
-						<a href="#" class="link link--big">Больше о компании</a>
+						<div class="h2"><small>Полный контроль дела</small></div>
+						<p class="panel__text">Мы берем на себя всю бумажную работу, переговоры с участниками и издержки, но ведем дело от вашего лица. Вы всегда можете узнать текущий статус процесса и повлиять на его ход.</p>
+					</div>
+				</div>
+			</div>
+			<div class="grid-3 grid-6_m grid-12_s">
+				<div class="panel">
+					<img src="/img/home/panel-1.jpg" alt="1" class="panel__img">
+					<div class="panel__content">
+						<div class="h2"><small>Поддержка 24/7</small></div>
+						<p class="panel__text">Менеджеры и юристы нашей компании готовы ответить на любые вопросы, касающиеся особенностей и тонкостей процедуры chargeback. Вы можете позвонить или написать в любое время — и получить своевременный ответ в тот же день.</p>
 					</div>
 				</div>
 			</div>

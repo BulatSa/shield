@@ -31,9 +31,9 @@
 	}
 	&--about {
 		.container {
-			background: linear-gradient(to right, #362320 0%, transparentize(#362320,1) 70%);
+			background: linear-gradient(to right, #34201f 0%, transparentize(#34201f,1) 70%);
 			@include res(m) {
-				background: transparentize(#362320,0.2);
+				background: transparentize(#34201f,0.2);
 			}
 		}
 	}
