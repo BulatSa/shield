@@ -6,14 +6,12 @@
 		background-size: cover;
 	}
 	@include res(s) {
-		//display: block;
-		//align-items: initial;
 		background-position: 65% 50%;
 	}
 	.container {
-		background: linear-gradient(to right, #f9f9f9 0%, transparentize(#f9f9f9,1) 70%);
+		background: linear-gradient(to right, #f9f9f9 540px, transparentize(#f9f9f9,1) 860px);
 		@include res(m) {
-			background: transparentize(#f9f9f9,0.2);
+			background: linear-gradient(to right, #f9f9f9 30%, transparentize(#f9f9f9,0.3) 100%);
 		}
 	}
 	&--main {
@@ -30,6 +28,7 @@
 		}
 	}
 	&--about {
+		background-color: #34201f;
 		.container {
 			background: linear-gradient(to right, #34201f 0%, transparentize(#34201f,1) 70%);
 			@include res(m) {
