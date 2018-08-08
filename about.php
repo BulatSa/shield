@@ -18,8 +18,8 @@
 			<div class="uptext">Преимущества</div>
 			<div class="h1">Почему<br>нам можно доверять</div>
 		</div>
-		<div class="row">
-			<div class="grid-3 grid-6_m grid-12_s">
+		<div class="panel-row">
+			<div class="panel-wrap">
 				<div class="panel">
 					<img src="/img/home/panel-1.jpg" alt="1" class="panel__img">
 					<div class="panel__content">
@@ -28,7 +28,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-6_m grid-12_s">
+			<div class="panel-wrap">
 				<div class="panel">
 					<img src="/img/home/panel-1.jpg" alt="1" class="panel__img">
 					<div class="panel__content">
@@ -37,7 +37,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-6_m grid-12_s">
+			<div class="panel-wrap">
 				<div class="panel">
 					<img src="/img/home/panel-1.jpg" alt="1" class="panel__img">
 					<div class="panel__content">
@@ -46,7 +46,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-3 grid-6_m grid-12_s">
+			<div class="panel-wrap">
 				<div class="panel">
 					<img src="/img/home/panel-1.jpg" alt="1" class="panel__img">
 					<div class="panel__content">

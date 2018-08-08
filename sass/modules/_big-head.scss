@@ -44,7 +44,6 @@
 	max-width: 610px;
 	min-height: 500px;
 	display: flex;
-	align-items: center;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	@include res(l) {
@@ -52,7 +51,6 @@
 	}
 	@include res(s) {
 		display: block;
-		align-items: initial;
 		padding-top: $pad-m;
 		padding-bottom: $pad-xs;
 	}

@@ -5,18 +5,71 @@
 	}
 }
 
-.panel{
-	background: #FFF;
+.panel-row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -$gutter;
+	margin-right: -$gutter;
+	&--3 {
+		margin-left: -$gutter-big;
+		margin-right: -$gutter-big;
+		@include res(l){
+			margin-left: -15px;
+			margin-right: -15px;
+		}
+		@include res(s){
+			margin-left: -$gutter;
+			margin-right: -$gutter;
+		}
+		.panel-wrap {
+			width: calc(100% / 3 - 50px);
+			margin-left: $gutter-big;
+			margin-right: $gutter-big;
+			@include res(l) {
+				width: calc(100% / 3 - 30px);
+				margin-left: 15px;
+				margin-right: 15px;
+			}
+			@include res(m) {
+				width: calc(100% / 3 - 30px);
+			}
+			@include res(s) {
+				width: calc(100% / 2 - 20px);
+				margin-left: $gutter;
+				margin-right: $gutter;
+				margin-bottom: $pad-s;
+			}
+			@include res(xs) {
+				width: 100%;
+				max-width: 363px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+}
+
+.panel-wrap {
+	width: calc(100% / 4 - 20px);
+	margin-left: $gutter;
+	margin-right: $gutter;
 	@extend %shadow-for-white-bg;
-	height: 100%;
 	border-radius: 10px;
-	@include res(s){
-		max-width: 363px;
-		height: auto;
+	background: #FFF;
+	@include res(m) {
+		width: calc(100% / 2 - 20px);
 		margin-bottom: $pad-s;
+	}
+	@include res(xs) {
+		width: 100%;
+		max-width: 363px;
 		margin-left: auto;
 		margin-right: auto;
 	}
+}
+
+.panel{
+
 
 	&__img{
 		display: block;
@@ -28,7 +81,7 @@
 	&__content{
 		padding: $pad-xs $pad-xs;
 		@include res(l){
-			padding: $pad-xs $pad-xs;
+			padding: $pad-xs 16px;
 			font-size: 14px;
 		}
 	}

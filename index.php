@@ -25,8 +25,8 @@
 
 <section class="s-panel-section">
 	<div class="container">
-		<div class="row-big">
-			<div class="grid-4 grid-12_s">
+		<div class="panel-row panel-row--3">
+			<div class="panel-wrap">
 				<div class="panel">
 					<img src="/img/home/panel-1.jpg" alt="1" class="panel__img">
 					<div class="panel__content">
@@ -36,7 +36,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-4 grid-12_s">
+			<div class="panel-wrap">
 				<div class="panel">
 					<img src="/img/home/panel-2.jpg" alt="1" class="panel__img">
 					<div class="panel__content">
@@ -46,7 +46,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="grid-4 grid-12_s">
+			<div class="panel-wrap">
 				<div class="panel">
 					<img src="/img/home/panel-3.jpg" alt="1" class="panel__img">
 					<div class="panel__content">
