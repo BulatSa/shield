@@ -277,83 +277,75 @@
 			</div>
 			<div class="review-slider">
 				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
-						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
+					<div class="review-video">
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
+							<img src="/img/home/review.jpg" alt="v">
+						</a>
+						<div class="review-video__descr">
+							<span>БРОКЕР: EQ Trades</span>
+							<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
+							<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
+						</div>
 					</div>
 				</div>
 				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
-						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
+					<div class="review-video">
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
+							<img src="/img/home/review.jpg" alt="v">
+						</a>
+						<div class="review-video__descr">
+							<span>БРОКЕР: EQ Trades</span>
+							<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
+							<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
+						</div>
 					</div>
 				</div>
 				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
-						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
+					<div class="review-video">
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
+							<img src="/img/home/review.jpg" alt="v">
+						</a>
+						<div class="review-video__descr">
+							<span>БРОКЕР: EQ Trades</span>
+							<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
+							<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
+						</div>
 					</div>
 				</div>
 				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
-						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
+					<div class="review-video">
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
+							<img src="/img/home/review.jpg" alt="v">
+						</a>
+						<div class="review-video__descr">
+							<span>БРОКЕР: EQ Trades</span>
+							<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
+							<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
+						</div>
 					</div>
 				</div>
 				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
-						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
+					<div class="review-video">
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
+							<img src="/img/home/review.jpg" alt="v">
+						</a>
+						<div class="review-video__descr">
+							<span>БРОКЕР: EQ Trades</span>
+							<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
+							<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
+						</div>
 					</div>
 				</div>
 				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
-						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
-					</div>
-				</div>
-				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
-						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
-					</div>
-				</div>
-				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
-						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
+					<div class="review-video">
+						<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
+							<img src="/img/home/review.jpg" alt="v">
+						</a>
+						<div class="review-video__descr">
+							<span>БРОКЕР: EQ Trades</span>
+							<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
+							<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
+						</div>
 					</div>
 				</div>
 			</div>

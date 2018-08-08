@@ -51,11 +51,11 @@
 	</div>
 	<nav class="mob-nav">
 		<ul>
-			<li><a href="#">Главная</a></li>
-			<li><a href="#">О компании</a></li>
+			<li><a href="/">Главная</a></li>
+			<li><a href="/about.php">О компании</a></li>
 			<li><a href="#" class="active">Сервисы</a></li>
 			<li><a href="#">Гарантии</a></li>
-			<li><a href="#">Отзывы</a></li>
+			<li><a href="/reviews.php">Отзывы</a></li>
 			<li><a href="#">Блог</a></li>
 			<li><a href="#">Контакты</a></li>
 			<li><a href="#" class="blue">Личный кабинет</a></li>
@@ -77,11 +77,11 @@
 
 		<nav class="top-nav">
 			<ul>
-				<li><a href="#">Главная</a></li>
-				<li><a href="#">О компании</a></li>
+				<li><a href="/">Главная</a></li>
+				<li><a href="/about.php">О компании</a></li>
 				<li><a href="#" class="active">Сервисы</a></li>
 				<li><a href="#">Гарантии</a></li>
-				<li><a href="#">Отзывы</a></li>
+				<li><a href="/reviews.php">Отзывы</a></li>
 				<li><a href="#">Блог</a></li>
 				<li><a href="#">Контакты</a></li>
 				<li><a href="#" class="blue">Личный кабинет</a></li>

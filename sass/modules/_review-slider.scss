@@ -54,27 +54,6 @@
 	@include res(xxs){
 		width: 100%;
 	}
-
-	.video-preview{
-		margin-bottom: $pad-xs;
-	}
-
-	&__descr{
-		font-size: 14px;
-		color: $gray-text;
-		line-height: 1.2;
-		@include res(xl){
-			font-size: 12px;
-		}
-		@include res(l){
-			font-size: 10px;
-		}
-
-		span{
-			display: block;
-			margin-bottom: 8px;
-		}
-	}
 }
 
 .review-slider-text{

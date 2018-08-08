@@ -1,0 +1,86 @@
+.review-photo{
+
+	&__img{
+		margin-bottom: $pad-xs;
+		display: block;
+		position: relative;
+		border-radius: 40px;
+		overflow: hidden;
+		-webkit-tap-highlight-color: transparent;
+		@include res(l){
+			border-radius: 20px;
+		}
+
+		img{
+			position: relative;
+			display: block;
+			z-index: 1;
+			width: 100%;
+			height: auto;
+			border-radius: 40px;
+			@include res(l){
+				border-radius: 20px;
+			}
+		}
+
+		&:before{
+			content: '';
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			top: 0;
+			background: $blue;
+			opacity: 0.3;
+			z-index: 2;
+			transition: opacity 0.5s ease;
+			border-radius: 40px;
+			@include res(l){
+				border-radius: 20px;
+			}
+		}
+
+		&:after{
+			content: "\e908";
+			font-family: $font-icons;
+			position: absolute;
+			left: $pad-xs;
+			bottom: $pad-xs;
+			margin: auto;
+			z-index: 3;
+			color: #FFF;
+			font-size: 34px;
+			height: 34px;
+			width: 34px;
+			line-height: 1;
+			transition: color 0.5s ease;
+		}
+
+		&:hover,&:focus{
+			outline: none;
+			&:before{
+				opacity: 0.7;
+			}
+			&:after{
+				color: $orange;
+			}
+		}
+	}
+
+	&__descr{
+		font-size: 14px;
+		color: $gray-text;
+		line-height: 1.2;
+		@include res(xl){
+			font-size: 12px;
+		}
+		@include res(l){
+			font-size: 10px;
+		}
+
+		span{
+			display: block;
+			margin-bottom: 8px;
+		}
+	}
+}
