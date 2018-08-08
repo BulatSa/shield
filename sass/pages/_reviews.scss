@@ -1,0 +1,22 @@
+.s-reviews-video{
+	padding-bottom: 10px;
+
+	.review-video{
+		margin-bottom: $pad-m;
+		@include res(xs){
+			margin-bottom: $pad-s;
+		}
+	}
+}
+
+.s-reviews-photo{
+	padding: 60px 0 30px 0;
+	background: $gray-bg;
+
+	.review-photo{
+		margin-bottom: $pad-m;
+		@include res(xs){
+			margin-bottom: $pad-s;
+		}
+	}
+}
