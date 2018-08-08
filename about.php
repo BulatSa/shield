@@ -21,7 +21,7 @@
 		<div class="panel-row">
 			<div class="panel-wrap">
 				<div class="panel">
-					<img src="/img/home/panel-1.jpg" alt="1" class="panel__img">
+					<img src="/img/home/panel-4.jpg" alt="1" class="panel__img">
 					<div class="panel__content">
 						<div class="h2"><small>Реальный практический опыт</small></div>
 						<p class="panel__text">Члены нашей команды сами пострадали от действий брокера-мошенника и знают, насколько это неприятная и тяжелая ситуация. Но мы нашли способ выйти из нее победителями и предлагаем вам не опускать руки и получить свои деньги назад благодаря chargeback.</p>
@@ -30,7 +30,7 @@
 			</div>
 			<div class="panel-wrap">
 				<div class="panel">
-					<img src="/img/home/panel-1.jpg" alt="1" class="panel__img">
+					<img src="/img/home/panel-5.jpg" alt="1" class="panel__img">
 					<div class="panel__content">
 						<div class="h2"><small>Команда профессион-х юристов</small></div>
 						<p class="panel__text">Все наши сотрудники получили юридическое образование и практиковались в ведущих юридических фирмах России. Можете не сомневаться: ваше дело будет находится под контролем команды юристов с богатым опытом оспаривания брокерских транзакций.</p>
@@ -39,7 +39,7 @@
 			</div>
 			<div class="panel-wrap">
 				<div class="panel">
-					<img src="/img/home/panel-1.jpg" alt="1" class="panel__img">
+					<img src="/img/home/panel-6.jpg" alt="1" class="panel__img">
 					<div class="panel__content">
 						<div class="h2"><small>Полный контроль дела</small></div>
 						<p class="panel__text">Мы берем на себя всю бумажную работу, переговоры с участниками и издержки, но ведем дело от вашего лица. Вы всегда можете узнать текущий статус процесса и повлиять на его ход.</p>
@@ -48,7 +48,7 @@
 			</div>
 			<div class="panel-wrap">
 				<div class="panel">
-					<img src="/img/home/panel-1.jpg" alt="1" class="panel__img">
+					<img src="/img/home/panel-7.jpg" alt="1" class="panel__img">
 					<div class="panel__content">
 						<div class="h2"><small>Поддержка 24/7</small></div>
 						<p class="panel__text">Менеджеры и юристы нашей компании готовы ответить на любые вопросы, касающиеся особенностей и тонкостей процедуры chargeback. Вы можете позвонить или написать в любое время — и получить своевременный ответ в тот же день.</p>
