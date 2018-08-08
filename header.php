@@ -103,6 +103,7 @@
 </section>
 
 
+<? if($_SERVER['REQUEST_URI'] != '/' and $_SERVER['REQUEST_URI'] != '/index.php') :?>
 <section class="s-breadcrumbs">
 	<div class="container">
 		<ul class="breadcrumbs">
@@ -112,3 +113,4 @@
 		</ul>
 	</div>
 </section>
+<? endif; ?>
