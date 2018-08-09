@@ -76,6 +76,15 @@
 	span {
 		padding-left: 15px;
 		line-height: 1;
+		@include res(s){
+			font-size: 10px;
+		}
+	}
+	img{
+		@include res(l){
+			width: 70px;
+			height: auto;
+		}
 	}
 }
 
@@ -151,6 +160,10 @@
 	img {
 		display: block;
 		max-width: 100%;
+		transform-origin: left center;
+		@include res(l){
+			transform: scale(0.5);
+		}
 	}
 }
 
