@@ -1,0 +1,38 @@
+.s-404{
+	text-align: center;
+	background: url("../img/404/bg.jpg") center bottom repeat-x;
+	height: 750px;
+	@include res(xl){
+		background-size: 1000px auto;
+		height: 530px;
+	}
+	@include res(m){
+		height: auto;
+		padding-bottom: 150px;
+		background-size: 600px auto;
+	}
+
+	.h1{
+		margin-bottom: $pad-s;
+		@include res(m){
+			margin-bottom: 0;
+		}
+	}
+
+	&__links{
+		padding-top: $pad-xs;
+		@include res(m){
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding-top: $pad-xxs;
+		}
+
+		a{
+			margin: 0 $pad-s;
+			@include res(m){
+				margin-bottom: $pad-xs;
+			}
+		}
+	}
+}

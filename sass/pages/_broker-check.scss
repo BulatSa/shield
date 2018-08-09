@@ -1,0 +1,102 @@
+.s-head-check{
+	background: url("../img/check/bg.png") center bottom repeat-x;
+	padding-bottom: 130px;
+	@include res(xl){
+		padding-bottom: 100px;
+	}
+	@include res(l){
+		padding-bottom: 60px;
+	}
+}
+
+
+.broker-check{
+	background: #FFF;
+	@extend %shadow-for-white-bg;
+	border-radius: 40px;
+	padding: $pad-s $pad-m $pad-m;
+	@include res(l){
+		padding: $pad-xs $pad-s $pad-s;
+	}
+	@include res(m){
+		margin-bottom: $pad-s;
+	}
+	@include res(xs){
+		border-radius: 20px;
+		padding: $pad-xs $pad-xs $pad-xs;
+	}
+
+	&__title{
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: 1em;
+		line-height: 1.3;
+		@include res(xs){
+			font-size: 18px;
+		}
+	}
+
+	&__form{
+		display: flex;
+		align-items: stretch;
+		height: 50px;
+		@include res(xs){
+			flex-wrap: wrap;
+			height: auto;
+		}
+
+		input{
+			margin-bottom: 0;
+			border-bottom-right-radius: 0;
+			border-top-right-radius: 0;
+			flex-shrink: 1;
+			background: #f2f0ed;
+			@include res(xs){
+				margin-bottom: $pad-xs;
+			}
+		}
+
+		button{
+			height: 50px;
+			line-height: 50px;
+			border-bottom-left-radius: 0;
+			border-top-left-radius: 0;
+			flex-shrink: 0;
+		}
+	}
+}
+
+
+.broker-check-result{
+	border-radius: 5px;
+	text-align: center;
+	padding: 40px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	@include res(m){
+		height: initial;
+	}
+	@include res(xs){
+		padding: 20px;
+	}
+
+	&--error{
+		background: $orange;
+	}
+
+	&--good{
+		background: #77d077;
+	}
+
+	.h3{
+		margin-bottom: 0;
+	}
+
+	.text-big{
+		max-width: initial;
+		margin: $pad-s 0;
+	}
+}

@@ -6,7 +6,6 @@ var captchaString = "";
 grecaptcha.ready(function() {
 	grecaptcha.execute('6LdxvGgUAAAAAPgRwPtMm1yE2VjBka-o6kwGY54l')
 		.then(function(token) {
-			console.log(token);
 			captchaString = token;
 		});
 });
