@@ -1,0 +1,36 @@
+.contacts-phones{
+	display: flex;
+	justify-content: space-between;
+	@include res(xs){
+		flex-wrap: wrap;
+	}
+}
+
+.contacts-item{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: $pad-xs;
+	max-width: 300px;
+	margin-bottom: $pad-xs;
+
+	.text-small{
+		margin-top: 4px;
+		line-height: 1.3;
+	}
+}
+
+.s-requisites{
+	background: url("../img/contacts/req-bg.jpg") center bottom no-repeat;
+	min-height: 700px;
+	@include res(xl){
+		background-size: 1000px auto;
+		min-height: 600px;
+	}
+	@include res(m){
+		background: none;
+	}
+
+	.user-content{
+		max-width: 510px;
+	}
+}

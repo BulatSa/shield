@@ -57,7 +57,7 @@
 			<li><a href="#">Гарантии</a></li>
 			<li><a href="/reviews.php">Отзывы</a></li>
 			<li><a href="/blog.php">Блог</a></li>
-			<li><a href="#">Контакты</a></li>
+			<li><a href="/contacts.php">Контакты</a></li>
 			<li><a href="#" class="blue">Личный кабинет</a></li>
 		</ul>
 	</nav>
@@ -83,7 +83,7 @@
 				<li><a href="#">Гарантии</a></li>
 				<li><a href="/reviews.php">Отзывы</a></li>
 				<li><a href="/blog.php">Блог</a></li>
-				<li><a href="#">Контакты</a></li>
+				<li><a href="/contacts.php">Контакты</a></li>
 				<li><a href="#" class="blue">Личный кабинет</a></li>
 			</ul>
 		</nav>
