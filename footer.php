@@ -18,9 +18,9 @@
 					<a href="#">Контакты</a>
 				</div>
 				<div class="footer-row">
-					<a href="#">Правила и условия оказания юридических услуг</a>
-					<a href="#">Политика конфиденциальности</a>
-					<a href="#">Возврат денежных средств</a>
+					<a href="/simple-page.php">Правила и условия оказания юридических услуг</a>
+					<a href="/simple-page.php">Политика конфиденциальности</a>
+					<a href="/simple-page.php">Возврат денежных средств</a>
 				</div>
 			</div>
 			<div class="grid-3 grid-12_l clearfix">

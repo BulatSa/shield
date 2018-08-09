@@ -57,7 +57,7 @@
 			<li><a href="#">Гарантии</a></li>
 			<li><a href="/reviews.php">Отзывы</a></li>
 			<li><a href="/blog.php">Блог</a></li>
-			<li><a href="#">Контакты</a></li>
+			<li><a href="/contacts.php">Контакты</a></li>
 			<li><a href="#" class="blue">Личный кабинет</a></li>
 		</ul>
 	</nav>
@@ -83,7 +83,7 @@
 				<li><a href="#">Гарантии</a></li>
 				<li><a href="/reviews.php">Отзывы</a></li>
 				<li><a href="/blog.php">Блог</a></li>
-				<li><a href="#">Контакты</a></li>
+				<li><a href="/contacts.php">Контакты</a></li>
 				<li><a href="#" class="blue">Личный кабинет</a></li>
 			</ul>
 		</nav>
@@ -101,3 +101,16 @@
 		</div>
 	</div>
 </section>
+
+
+<? if($_SERVER['REQUEST_URI'] != '/' and $_SERVER['REQUEST_URI'] != '/index.php') :?>
+<section class="s-breadcrumbs">
+	<div class="container">
+		<ul class="breadcrumbs">
+			<li><a href="/">Главная</a></li>
+			<li><a href="/">Блог</a></li>
+			<li><span>Соглашение на обработку персональных данных</span></li>
+		</ul>
+	</div>
+</section>
+<? endif; ?>

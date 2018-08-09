@@ -151,6 +151,7 @@ function init_fancy() {
 		toolbar: false,
 		smallBtn: true,
 		backFocus: false,
+		defaultType: "iframe",
 		lang : 'ru',
 		i18n : {
 			'ru' : {
