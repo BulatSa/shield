@@ -289,4 +289,88 @@
 </section>
 
 
+<section class="about-team-sec def-sec">
+	<div class="about-team container">
+		<div class="row">
+			<div class="grid-5 grid-12_l">
+				<div class="sec-title">
+					<div class="uptext">команда</div>
+					<div class="h1">Помогают вернуть ваши деньги </div>
+				</div>
+				<p class="text-big">Каждый человек в нашей команде — профессионал. Это выражается не только в грамотной работе, но и в отношении к клиентам: каждый из них может рассказать о своих проблемах и получить поддержку.</p>
+			</div>
+		</div>
+		<div class="about-team__list">
+			<div class="about-team__item">
+				<img src="img/about-team/team-1.jpg" alt="">
+				<p>Инсар Валиахметов</p>
+				<span>Генеральный Директор, учредитель компании</span>
+				<div class="about-team__soc">
+					<a href="#" target="_blank" title="Facebook"><i class="icon-soc-fb"></i></a>
+					<a href="#" target="_blank" title="E-mail"><i class="icon-mail"></i></a>
+					<a href="#" target="_blank" title="Вконтакте"><i class="icon-soc-vk"></i></a>
+					<a href="#" target="_blank"><i class="icon-bubble-full"></i></a>
+				</div>
+			</div>
+			<div class="about-team__item">
+				<img src="img/about-team/team-2.jpg" alt="">
+				<p>Власова Анастасия</p>
+				<span>Заместитель Генерального Директора</span>
+				<div class="about-team__soc">
+					<a href="#" target="_blank" title="Facebook"><i class="icon-soc-fb"></i></a>
+					<a href="#" target="_blank" title="E-mail"><i class="icon-mail"></i></a>
+					<a href="#" target="_blank" title="Вконтакте"><i class="icon-soc-vk"></i></a>
+					<a href="#" target="_blank"><i class="icon-bubble-full"></i></a>
+				</div>
+			</div>
+			<div class="about-team__item">
+				<img src="img/about-team/team-3.jpg" alt="">
+				<p>Марат Каримов</p>
+				<span>Юрист</span>
+				<div class="about-team__soc">
+					<a href="#" target="_blank" title="Facebook"><i class="icon-soc-fb"></i></a>
+					<a href="#" target="_blank" title="E-mail"><i class="icon-mail"></i></a>
+					<a href="#" target="_blank" title="Вконтакте"><i class="icon-soc-vk"></i></a>
+					<a href="#" target="_blank"><i class="icon-bubble-full"></i></a>
+				</div>
+			</div>
+
+			<div class="about-team__item">
+				<img src="img/about-team/team-4.jpg" alt="">
+				<p>Фахерутдинов Айрат </p>
+				<span>Юрист</span>
+				<div class="about-team__soc">
+					<a href="#" target="_blank" title="Facebook"><i class="icon-soc-fb"></i></a>
+					<a href="#" target="_blank" title="E-mail"><i class="icon-mail"></i></a>
+					<a href="#" target="_blank" title="Вконтакте"><i class="icon-soc-vk"></i></a>
+					<a href="#" target="_blank"><i class="icon-bubble-full"></i></a>
+				</div>
+			</div>
+			<div class="about-team__item">
+				<img src="img/about-team/team-5.jpg" alt="">
+				<p>Башкатов Илья</p>
+				<span>Юрист</span>
+				<div class="about-team__soc">
+					<a href="#" target="_blank" title="Facebook"><i class="icon-soc-fb"></i></a>
+					<a href="#" target="_blank" title="E-mail"><i class="icon-mail"></i></a>
+					<a href="#" target="_blank" title="Вконтакте"><i class="icon-soc-vk"></i></a>
+					<a href="#" target="_blank"><i class="icon-bubble-full"></i></a>
+				</div>
+			</div>
+			<div class="about-team__item">
+				<img src="img/about-team/team-6.jpg" alt="">
+				<p>Мокшин Станислав </p>
+				<span>Менеджер по работе с клиентами</span>
+				<div class="about-team__soc">
+					<a href="#" target="_blank" title="Facebook"><i class="icon-soc-fb"></i></a>
+					<a href="#" target="_blank" title="E-mail"><i class="icon-mail"></i></a>
+					<a href="#" target="_blank" title="Вконтакте"><i class="icon-soc-vk"></i></a>
+					<a href="#" target="_blank"><i class="icon-bubble-full"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <?php include('footer.php'); ?>

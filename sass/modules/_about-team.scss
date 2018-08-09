@@ -1,0 +1,107 @@
+.about-team-sec {
+	background: #f9f9f9;
+}
+
+.about-team {}
+
+.about-team__list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -$gutter-big;
+	margin-right: -$gutter-big;
+	padding-top: $pad-m;
+	@include res(l){
+		margin-left: -15px;
+		margin-right: -15px;
+		padding-top: $pad-s;
+	}
+	@include res(s){
+		margin-left: -$gutter;
+		margin-right: -$gutter;
+	}
+}
+
+.about-team__item {
+	position: relative;
+	width: calc(100% / 3 - 50px);
+	margin-left: $gutter-big;
+	margin-right: $gutter-big;
+	margin-bottom: $pad-m;
+	padding-bottom: $pad-l;
+	text-align: center;
+	border-radius: 10px;
+	background: #fff;
+	overflow: hidden;
+	@include res(l) {
+		width: calc(100% / 3 - 30px);
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-bottom: 30px;
+	}
+	@include res(s) {
+		width: 100%;
+		max-width: 363px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		margin: 0 auto 15px;
+	}
+	p {
+		max-width: 280px;
+		margin: 0 auto 5px;
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	span {
+		display: block;
+		max-width: 280px;
+		margin: 0 auto;
+		font-size: 14px;
+		line-height: (18/14);
+	}
+}
+
+.about-team__soc {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: $pad-xs;
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 25px;
+		height: 25px;
+		margin: 0 5px;
+		padding: 5px;
+		font-size: 16px;
+		color: #fff;
+		border-radius: 5px;
+		background: $blue;
+		transition: all 0.3s ease;
+		&:hover {
+			color: $blue;
+			background: #fff;
+		}
+	}
+	.icon-soc-fb {
+		font-size: 16px;
+	}
+	.icon-mail {
+		font-size: 11px;
+	}
+	.icon-soc-vk {
+		font-size: 11px;
+	}
+	.icon-bubble-full {
+		font-size: 13px;
+	}
+}
