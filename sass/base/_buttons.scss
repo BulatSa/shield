@@ -79,3 +79,21 @@ button::-moz-focus-inner {
 			inset 0 -10px 10px 0 transparent;
 	}
 }
+
+
+.btn--white{
+	background-color: #FFF;
+	color: $blue;
+	text-shadow: none;
+	box-shadow: none !important;
+
+	&:hover,&:focus{
+		background-color: $blue;
+		color: #FFF;
+		box-shadow: none;
+	}
+
+	&:active{
+		background-color: darken($orange,5%);
+	}
+}
