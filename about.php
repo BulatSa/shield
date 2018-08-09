@@ -12,55 +12,6 @@
 </section>
 
 
-<section class="s-panel-section">
-	<div class="container">
-		<div class="sec-title sec-title--bigmargin">
-			<div class="uptext">Преимущества</div>
-			<div class="h1">Почему<br>нам можно доверять</div>
-		</div>
-		<div class="panel-row">
-			<div class="panel-wrap">
-				<div class="panel">
-					<img src="/img/home/panel-4.jpg" alt="1" class="panel__img">
-					<div class="panel__content">
-						<div class="h2"><small>Реальный практический опыт</small></div>
-						<p class="panel__text">Члены нашей команды сами пострадали от действий брокера-мошенника и знают, насколько это неприятная и тяжелая ситуация. Но мы нашли способ выйти из нее победителями и предлагаем вам не опускать руки и получить свои деньги назад благодаря chargeback.</p>
-					</div>
-				</div>
-			</div>
-			<div class="panel-wrap">
-				<div class="panel">
-					<img src="/img/home/panel-5.jpg" alt="1" class="panel__img">
-					<div class="panel__content">
-						<div class="h2"><small>Команда профессион-х юристов</small></div>
-						<p class="panel__text">Все наши сотрудники получили юридическое образование и практиковались в ведущих юридических фирмах России. Можете не сомневаться: ваше дело будет находится под контролем команды юристов с богатым опытом оспаривания брокерских транзакций.</p>
-					</div>
-				</div>
-			</div>
-			<div class="panel-wrap">
-				<div class="panel">
-					<img src="/img/home/panel-6.jpg" alt="1" class="panel__img">
-					<div class="panel__content">
-						<div class="h2"><small>Полный контроль дела</small></div>
-						<p class="panel__text">Мы берем на себя всю бумажную работу, переговоры с участниками и издержки, но ведем дело от вашего лица. Вы всегда можете узнать текущий статус процесса и повлиять на его ход.</p>
-					</div>
-				</div>
-			</div>
-			<div class="panel-wrap">
-				<div class="panel">
-					<img src="/img/home/panel-7.jpg" alt="1" class="panel__img">
-					<div class="panel__content">
-						<div class="h2"><small>Поддержка 24/7</small></div>
-						<p class="panel__text">Менеджеры и юристы нашей компании готовы ответить на любые вопросы, касающиеся особенностей и тонкостей процедуры chargeback. Вы можете позвонить или написать в любое время — и получить своевременный ответ в тот же день.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-
-
 <section class="s-review-slider def-sec">
 	<div class="container">
 		<div class="review-slider-wrap">
@@ -152,6 +103,101 @@
 						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
 					</div>
 				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-panel-section def-sec">
+	<div class="container">
+		<div class="sec-title sec-title--bigmargin">
+			<div class="uptext">Преимущества</div>
+			<div class="h1">Почему<br>нам можно доверять</div>
+		</div>
+		<div class="panel-row">
+			<div class="panel-wrap">
+				<div class="panel">
+					<img src="/img/home/panel-4.jpg" alt="1" class="panel__img">
+					<div class="panel__content">
+						<div class="h2"><small>Реальный практический опыт</small></div>
+						<p class="panel__text">Члены нашей команды сами пострадали от действий брокера-мошенника и знают, насколько это неприятная и тяжелая ситуация. Но мы нашли способ выйти из нее победителями и предлагаем вам не опускать руки и получить свои деньги назад благодаря chargeback.</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel-wrap">
+				<div class="panel">
+					<img src="/img/home/panel-5.jpg" alt="1" class="panel__img">
+					<div class="panel__content">
+						<div class="h2"><small>Команда профессион-х юристов</small></div>
+						<p class="panel__text">Все наши сотрудники получили юридическое образование и практиковались в ведущих юридических фирмах России. Можете не сомневаться: ваше дело будет находится под контролем команды юристов с богатым опытом оспаривания брокерских транзакций.</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel-wrap">
+				<div class="panel">
+					<img src="/img/home/panel-6.jpg" alt="1" class="panel__img">
+					<div class="panel__content">
+						<div class="h2"><small>Полный контроль дела</small></div>
+						<p class="panel__text">Мы берем на себя всю бумажную работу, переговоры с участниками и издержки, но ведем дело от вашего лица. Вы всегда можете узнать текущий статус процесса и повлиять на его ход.</p>
+					</div>
+				</div>
+			</div>
+			<div class="panel-wrap">
+				<div class="panel">
+					<img src="/img/home/panel-7.jpg" alt="1" class="panel__img">
+					<div class="panel__content">
+						<div class="h2"><small>Поддержка 24/7</small></div>
+						<p class="panel__text">Менеджеры и юристы нашей компании готовы ответить на любые вопросы, касающиеся особенностей и тонкостей процедуры chargeback. Вы можете позвонить или написать в любое время — и получить своевременный ответ в тот же день.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-triggers def-sec">
+	<div class="container">
+		<div class="row">
+			<div class="grid-5 grid-6_xl grid-12_l">
+				<div class="sec-title">
+					<div class="uptext">О нас в цифрах</div>
+					<div class="h1">Наши слова <small>не расходятся с делом</small></div>
+				</div>
+				<div class="user-content">
+					<p class="text-big">Мы полностью открыты для вас. Вы всегда можете найти информацию о нашей деятельности в социальных сетях и прочитать реальные отзывы клиентов.</p>
+				</div>
+			</div>
+		</div>
+		<div class="trigger-row trigger-row--4">
+			<div class="trigger">
+				<div class="trigger__head">
+					<img src="/img/triggers/6.png" alt="1" class="trigger__img--1">
+					<span>2013 <small>год</small></span>
+				</div>
+				<div class="text-small">Одними из первых на рынке начали оказывать юридические услуги по возврату денежных средств.</div>
+			</div>
+			<div class="trigger">
+				<div class="trigger__head">
+					<img src="/img/triggers/7.png" alt="1" class="trigger__img--3">
+					<span>> 5 <small>лет</small></span>
+				</div>
+				<div class="text-small">Совершенствуем сервисы и собственную уникальную систему по возврату денежных средств с оффшорных зон.</div>
+			</div>
+			<div class="trigger">
+				<div class="trigger__head">
+					<img src="/img/triggers/8.png" alt="1" class="trigger__img--6">
+					<span>100 <small>млн.<span class="rub">c</span></small></span>
+				</div>
+				<div class="text-small">Общая сумма, которую юристы компании вернули клиентам за прошедший год.</div>
+			</div>
+			<div class="trigger">
+				<div class="trigger__head">
+					<img src="/img/triggers/9.png" alt="1" class="trigger__img--1">
+					<span>100%</span>
+				</div>
+				<div class="text-small">Мы гарантируем, что ваше дело будет рассмотрено Международной платежной системой и решено в вашу пользу.</div>
 			</div>
 		</div>
 	</div>

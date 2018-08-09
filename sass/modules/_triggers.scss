@@ -1,10 +1,35 @@
+.s-triggers {
+	.text-big {
+		padding-bottom: $pad-xs;
+	}
+}
+
 .trigger-row{
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
 	flex-wrap: wrap;
 
-	&--5{
+	&--4 {
+		@include res(m){
+			justify-content: space-around;
+		}
+		.trigger{
+			width: calc(100% / 4 - 30px);
+			@include res(l){
+				width: calc(100% / 4 - 10px);
+			}
+			@include res(m){
+				width: calc(100% / 2 - 20px);
+				margin-bottom: 40px;
+			}
+			@include res(xs){
+				width: 100%;
+			}
+		}
+	}
+
+	&--5 {
 		@include res(m){
 			justify-content: space-around;
 		}
@@ -41,6 +66,23 @@
 		img{
 			position: absolute;
 		}
+		&>span {
+			display: block;
+			padding-left: 15px;
+			font-size: 36px;
+			font-weight: bold;
+			line-height: 75px;
+			@include res(xl) {
+				font-size: 30px;
+			}
+			@include res(l) {
+				font-size: 22px;
+			}
+			small {
+				font-size: 14px;
+				text-transform: uppercase;
+			}
+		}
 	}
 }
 
@@ -63,4 +105,9 @@
 .trigger__img--5{
 	top: -23px;
 	right: 8px;
+}
+
+.trigger__img--6 {
+	top: -10px;
+	right: -10px;
 }
