@@ -24,6 +24,9 @@
 	@include res(l){
 		flex-direction: column;
 	}
+	@include res(s){
+		padding-top: $pad-s;
+	}
 }
 
 .step {
