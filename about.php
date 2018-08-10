@@ -12,95 +12,19 @@
 </section>
 
 
-<section class="s-review-slider def-sec">
+<section class="partner-slider-sec def-sec">
 	<div class="container">
-		<div class="review-slider-wrap">
-			<div class="review-slider-text">
+		<div class="partner-slider-wrap">
+			<div class="partner-slider-text">
 				<div class="user-content">
-					<div class="h2">Они вернули свои деньги</div>
-					<p>Мы гордимся нашими клиентами. Они не сидят сложа руки и ищут выход из ситуации. А мы только помогаем им поверить в себя и грамотно запустить процесс возврата средств.</p>
-					<a href="#" class="link-icon"><i class="icon-bubble"></i><span>Смотреть еще отзывы</span></a>
+					<div class="h2">Банки партнеры</div>
+					<p>Вместе мы помогаем вернуть ваши деньги.</p>
 				</div>
 			</div>
-			<div class="review-slider">
-				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
+			<div class="partner-slider">
+				<div class="partner-slide">
+					<div class="partner-slide__logo">
 						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
-					</div>
-				</div>
-				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
-						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
-					</div>
-				</div>
-				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
-						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
-					</div>
-				</div>
-				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
-						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
-					</div>
-				</div>
-				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
-						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
-					</div>
-				</div>
-				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
-						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
-					</div>
-				</div>
-				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
-						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
-					</div>
-				</div>
-				<div class="review-slide">
-					<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video-preview fancy-video" rel="nofollow">
-						<img src="/img/home/review.jpg" alt="v">
-					</a>
-					<div class="review-slide__descr">
-						<span>БРОКЕР: EQ Trades</span>
-						<span>СУММА ВОЗВРАТА: 1 484 512 рублей</span>
-						<span>СРОК ВОЗВРАТА: 4.5 месяца</span>
 					</div>
 				</div>
 			</div>
@@ -109,7 +33,7 @@
 </section>
 
 
-<section class="s-panel-section def-sec">
+<section class="s-panel-section def-sec ">
 	<div class="container">
 		<div class="sec-title sec-title--bigmargin">
 			<div class="uptext">Преимущества</div>
