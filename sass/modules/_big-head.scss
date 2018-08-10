@@ -219,3 +219,25 @@
 		}
 	}
 }
+
+.big-head__lock{
+	display: flex;
+	max-width: 550px;
+	@include res(s){
+		padding-top: $pad-xs;
+	}
+
+	img{
+		flex-shrink: 0;
+		margin-right: $pad-xs;
+	}
+
+	span{
+		color: $gray-text;
+		font-size: 14px;
+		line-height: 1.2;
+		@include res(xs){
+			font-size: 12px;
+		}
+	}
+}
