@@ -7,7 +7,7 @@
 				<h1>Тариф Минимальный</h1>
 				<p>Тариф, который включает в себя самое необходимое для начала процедуры Сhargeback. Все процессы клиент контролирует самостоятельно. Подходит для суммы ущерба от 100 000 a</p>
 				<div class="big-head__actions">
-					<a href="/broker-check.php" class="btn btn--orange">Оставить заявку</a>
+					<a href="#order" class="btn btn--orange scrollto">Оставить заявку</a>
 					<a href="#" class="link">Подписать электронный договор</a>
 				</div>
 			</div>
@@ -110,7 +110,7 @@
 </section>
 
 
-<section class="s-order def-sec">
+<section class="s-order def-sec" id="order">
 	<div class="container">
 		<div class="row">
 
