@@ -1,0 +1,57 @@
+.s-tariff-content{
+	padding-top: 50px;
+
+	.h1{
+		margin-bottom: $pad-xs;
+	}
+}
+
+.ai-block{
+	background: #f2f0ed;
+	padding: $pad-s $pad-m;
+	border-radius: 10px;
+	margin-bottom: $pad-m;
+	@include res(l){
+		margin-bottom: $pad-s;
+	}
+	@include res(m){
+		margin-top: $pad-xs;
+	}
+	@include res(xs){
+		padding: $pad-xs $pad-xs;
+	}
+
+	.h3{
+		margin-bottom: $pad-xxs;
+	}
+}
+
+.dogovor-block{
+	position: relative;
+	background: $light-bg;
+	border-radius: 10px;
+	padding: 50px 20px 50px 230px;
+	@include res(xl){
+		padding: 50px 20px 50px 190px;
+	}
+	@include res(l){
+		padding: 30px 30px 30px 30px;
+	}
+	@include res(xs){
+		padding: $pad-xs $pad-xxs;
+	}
+
+	img{
+		position: absolute;
+		left: 25px;
+		top: -30px;
+		height: auto;
+		@include res(xl){
+			width: 130px;
+			top: -15px;
+		}
+		@include res(l){
+			display: none;
+		}
+	}
+}

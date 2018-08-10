@@ -104,7 +104,7 @@
 						</div>
 						<div class="tariff__actions">
 							<button class="btn fancy-modal" data-src="#modal-order">Выбрать</button>
-							<a href="#" class="link">Узнать подробнее</a>
+							<a href="/tarif-1.php" class="link">Узнать подробнее</a>
 						</div>
 					</main>
 					<footer>
@@ -144,7 +144,7 @@
 						</div>
 						<div class="tariff__actions">
 							<button class="btn fancy-modal" data-src="#modal-order">Выбрать</button>
-							<a href="#" class="link">Узнать подробнее</a>
+							<a href="/tarif-2.php" class="link">Узнать подробнее</a>
 						</div>
 					</main>
 					<footer>
@@ -192,7 +192,7 @@
 						</div>
 						<div class="tariff__actions">
 							<button class="btn fancy-modal" data-src="#modal-order">Выбрать</button>
-							<a href="#" class="link">Узнать подробнее</a>
+							<a href="/tarif-3.php" class="link">Узнать подробнее</a>
 						</div>
 					</main>
 					<footer>
