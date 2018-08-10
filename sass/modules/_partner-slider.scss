@@ -1,0 +1,112 @@
+.partner-slider-sec {
+	padding-top: $pad-l;
+	padding-bottom: $pad-l;
+	background: $gray-bg;
+	@include res(l){
+		padding-top: $pad-m;
+		padding-bottom: $pad-m;
+	}
+	@include res(s){
+		padding-top: $pad-s;
+		padding-bottom: $pad-m;
+	}
+}
+
+.partner-slider {
+	@include res(l){
+		margin-bottom: 40px;
+	}
+
+	.flickity-prev-next-button{
+		top: 67px;
+		transform: none;
+		z-index: 1;
+		@include res(l){
+			top: initial;
+			bottom: -60px;
+		}
+
+		&.previous{
+			left: calc(25% - 50px);
+			@include res(l){
+				left: calc(50% - 20px - 20px);
+			}
+		}
+
+		&.next{
+			left: calc(50% - 10px);
+			@include res(l){
+				left: calc(50% - 20px + 20px);
+			}
+		}
+	}
+}
+
+.partner-slider-text {
+	position: absolute;
+	z-index: 10;
+	left: 25%;
+	top: 0;
+	background: $gray-bg;
+	width: 25%;
+	height: 210px;
+	padding: 0 15px;
+	@include res(xl){
+		font-size: 14px;
+	}
+	@include res(l){
+		position: relative;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: auto;
+		margin-bottom: $pad-s;
+		padding: 0 15px;
+	}
+	@include res(m){
+		padding: 0 5px;
+	}
+	@include res(xs){
+		padding: 0;
+	}
+}
+
+.partner-slide {
+	width: 25%;
+	padding: 0 25px;
+	overflow: hidden;
+	@include res(l){
+		padding: 0 10px;
+		height: auto;
+	}
+	@include res(m){
+		width: calc(100% / 3);
+		padding: 0 5px;
+	}
+	@include res(xs){
+		width: 50%;
+	}
+	@include res(xxs){
+		width: 100%;
+	}
+}
+
+.partner-slide__logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 210px;
+	padding: 25px;
+	border-radius: 30px;
+	background: #fff;
+	@include res(l) {
+		height: 190px;
+	}
+	@include res(s) {
+		height: 170px;
+	}
+	img {
+		display: block;
+		max-width: 100%;
+	}
+}

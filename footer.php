@@ -95,6 +95,20 @@
 		</form>
 	</div>
 
+	<div id="modal-charity" class="modal">
+		<p class="h4 modal__title"><span class="blue">Стать волонтером</span></p>
+		<form class="ajax-form">
+			<input type="hidden" value="Благотворительность" name="form_subject">
+			<input type="text" class="input-text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
+			<input type="tel" class="input-text" name="user_tel" placeholder="Ваш телефон" data-label="Телефон"  data-req="true">
+			<label class="style-check-ios">
+				<input type="checkbox" name="user_policy" data-label="Согласен с условиями" value="yes" data-req="true" checked="">
+				<span>Нажимая кнопку, я даю согласие на&nbsp;обработку персональных данных и&nbsp;соглашаюсь с&nbsp;<a href="#">условиями политики конфиденциальности</a></span>
+			</label>
+			<button type="submit" class="btn">Отправить</button>
+		</form>
+	</div>
+
 	<div id="modal-order" class="modal">
 		<p class="h4 modal__title">Начните возврат своих денег <span class="blue">прямо сейчас</span></p>
 		<form class="ajax-form">

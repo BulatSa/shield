@@ -12,7 +12,7 @@
 </section>
 
 
-<section class="partner-slider-sec def-sec">
+<section class="partner-slider-sec">
 	<div class="container">
 		<div class="partner-slider-wrap">
 			<div class="partner-slider-text">
@@ -24,7 +24,27 @@
 			<div class="partner-slider">
 				<div class="partner-slide">
 					<div class="partner-slide__logo">
-						<img src="/img/home/review.jpg" alt="v">
+						<img src="/img/partner-slider/logo-1.jpg" alt="v">
+					</div>
+				</div>
+				<div class="partner-slide">
+					<div class="partner-slide__logo">
+						<img src="/img/partner-slider/logo-2.jpg" alt="v">
+					</div>
+				</div>
+				<div class="partner-slide">
+					<div class="partner-slide__logo">
+						<img src="/img/partner-slider/logo-3.jpg" alt="v">
+					</div>
+				</div>
+				<div class="partner-slide">
+					<div class="partner-slide__logo">
+						<img src="/img/partner-slider/logo-1.jpg" alt="v">
+					</div>
+				</div>
+				<div class="partner-slide">
+					<div class="partner-slide__logo">
+						<img src="/img/partner-slider/logo-2.jpg" alt="v">
 					</div>
 				</div>
 			</div>
@@ -336,6 +356,52 @@
 					<a href="#" target="_blank" title="E-mail"><i class="icon-mail"></i></a>
 					<a href="#" target="_blank" title="Вконтакте"><i class="icon-soc-vk"></i></a>
 					<a href="#" target="_blank"><i class="icon-bubble-full"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="charity-sec def-sec">
+	<div class="charity container">
+		<div class="row">
+			<div class="grid-6 grid-12_s">
+				<div class="sec-title">
+					<div class="uptext">благотворительность</div>
+					<div class="h1">Добрые дела</div>
+				</div>
+				<div class="user-content">
+					<p class="text-big">Мы хотим, чтобы все дети были счастливы. Даже те, что остались без родителей. Вместе с фондом «Кто, если не я» мы посещаем «Центр содействия семейному устройству детей, оставшихся без попечения родителей» и устраиваем для них настоящий маленький праздник, впечатления и эмоции от которого сложно описать словами.</p>
+				</div>
+				<div class="charity__btn">
+					<p class="h3">Сделать доброе дело не так сложно, как кажется. Присоединяйтесь к нашей команде.</p>
+					<a href="#" class="btn btn--orange fancy-modal" data-src="#modal-charity">Стать волонтером</a>
+					<img src="img/charity/btn-line.svg" alt="">
+				</div>
+			</div>
+			<div class="grid-6 grid-12_s">
+				<div class="charity__slider">
+					<div class="charity__slide">
+						<a href="img/charity/slide-1.jpg" class="fancy" data-fancybox="charity-gal">
+							<img src="img/charity/slide-1.jpg" alt="">
+						</a>
+					</div>
+					<div class="charity__slide">
+						<a href="img/charity/slide-2.jpg" class="fancy" data-fancybox="charity-gal">
+							<img src="img/charity/slide-2.jpg" alt="">
+						</a>
+					</div>
+					<div class="charity__slide">
+						<a href="img/charity/slide-1.jpg" class="fancy" data-fancybox="charity-gal">
+							<img src="img/charity/slide-1.jpg" alt="">
+						</a>
+					</div>
+					<div class="charity__slide">
+						<a href="img/charity/slide-2.jpg" class="fancy" data-fancybox="charity-gal">
+							<img src="img/charity/slide-2.jpg" alt="">
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
