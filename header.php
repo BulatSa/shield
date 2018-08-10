@@ -51,9 +51,9 @@
 	</div>
 	<nav class="mob-nav">
 		<ul>
-			<li><a href="/">Главная</a></li>
+			<li><a href="/" class="active">Главная</a></li>
 			<li><a href="/about.php">О компании</a></li>
-			<li><a href="#" class="active">Сервисы</a></li>
+			<li><a href="/services.php">Сервисы</a></li>
 			<li><a href="#">Гарантии</a></li>
 			<li><a href="/reviews.php">Отзывы</a></li>
 			<li><a href="/blog.php">Блог</a></li>
@@ -77,9 +77,9 @@
 
 		<nav class="top-nav">
 			<ul>
-				<li><a href="/">Главная</a></li>
+				<li><a href="/" class="active">Главная</a></li>
 				<li><a href="/about.php">О компании</a></li>
-				<li><a href="#" class="active">Сервисы</a></li>
+				<li><a href="/services.php">Сервисы</a></li>
 				<li><a href="#">Гарантии</a></li>
 				<li><a href="/reviews.php">Отзывы</a></li>
 				<li><a href="/blog.php">Блог</a></li>
