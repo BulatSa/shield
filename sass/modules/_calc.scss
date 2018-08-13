@@ -177,6 +177,7 @@
 		background: linear-gradient(to top, #2e54d5 0%, #1eddff 80%);
 		transition: height 0.8s cubic-bezier(0.68, -1, 0.4, 1.9);
 		box-shadow: 1px 1px 30px 0 rgba(0,0,0,0.2);
+		border-radius: 5px;
 		@include res(m) {
 			display: none;
 		}
