@@ -1,4 +1,6 @@
-label{cursor: pointer;}
+label {
+	cursor: pointer;
+}
 
 .input-text, .input-textarea {
 	display: block;
@@ -8,34 +10,35 @@ label{cursor: pointer;}
 	font-family: $font;
 	font-size: 16px;
 	color: $blue;
-	line-height: 1.3; 
+	line-height: 1.3;
 	border: 1px solid #dbdbde;
 	border-radius: 5px;
 	overflow: visible;
 	transition: all 0.3s ease;
 	-webkit-appearance: none;
 	font-weight: bold;
-	@include res(s){
+	@include res(s) {
 		margin-bottom: 15px;
 	}
-	@include res(xs){
+	@include res(xs) {
 		padding: 13px 10px;
 	}
 
 	&::placeholder {
 		font-size: 14px;
+		line-height: 24px;
 		font-weight: normal;
 		color: $color-text;
 		opacity: 1;
 		transition: all 0.3s ease;
 	}
 
-	&:hover{
+	&:hover {
 		border: 1px solid $blue;
 	}
 
 	&:focus {
-		box-shadow: 0 0 0 1px $blue, 0 2px 4px 0 rgba(0,0,0,0.3);
+		box-shadow: 0 0 0 1px $blue, 0 2px 4px 0 rgba(0, 0, 0, 0.3);
 		border-color: $blue;
 		outline: none;
 		&::placeholder {
@@ -57,44 +60,42 @@ label{cursor: pointer;}
 	}
 }
 
-
-
 //style-checkbox
-.style-checkbox{
+.style-checkbox {
 	display: block;
 	position: relative;
 	cursor: pointer;
 	margin-bottom: 20px;
 	font-size: 12px;
-	@include res(s){
+	@include res(s) {
 		margin-bottom: 15px;
 	}
 
-	input{
+	input {
 		opacity: 0;
 		position: absolute;
 		left: 0;
 		top: 0;
 
-		&:checked + span{
-			&:after{
+		&:checked + span {
+			&:after {
 				opacity: 1;
 			}
 		}
 
-		&.error + span{
-			&:before{
+		&.error + span {
+			&:before {
 				border-color: #cc0000;
 			}
 		}
 	}
 
-	span{
+	span {
 		display: block;
 		position: relative;
 		padding-left: 30px;
 
-		&:before{
+		&:before {
 			content: '';
 			width: 20px;
 			height: 20px;
@@ -105,7 +106,7 @@ label{cursor: pointer;}
 			transition: all 0.3s ease;
 		}
 
-		&:after{
+		&:after {
 			content: '';
 			width: 20px;
 			height: 20px;
@@ -118,11 +119,12 @@ label{cursor: pointer;}
 			transition: opacity 0.3s ease;
 		}
 
-		a{
+		a {
 			color: #353434;
 		}
 	}
 }
+
 //style-checkbox
 
 .style-check-ios {
@@ -132,7 +134,7 @@ label{cursor: pointer;}
 	margin-bottom: 20px;
 	cursor: pointer;
 	font-size: 12px;
-	transform: translate3d(0,0,0);
+	transform: translate3d(0, 0, 0);
 	@include res(s) {
 		font-size: 10px;
 		margin-bottom: 15px;
@@ -143,7 +145,7 @@ label{cursor: pointer;}
 		left: 0;
 		top: 0;
 		&:checked {
-			&+span {
+			& + span {
 				&:before {
 					background: $blue;
 				}
@@ -153,7 +155,7 @@ label{cursor: pointer;}
 			}
 		}
 		&.error {
-			&+span {
+			& + span {
 				&:before {
 					box-shadow: 0 0 0 2px #ffabab, 0 2px 4px 0 rgba(123, 0, 0, 0.31);
 					background: #ffe4e4;
@@ -179,7 +181,7 @@ label{cursor: pointer;}
 			top: 3px;
 			transition: all 0.3s ease;
 			background: #b4b4b4;
-			transform: translate3d(0,0,0);
+			transform: translate3d(0, 0, 0);
 		}
 		&:after {
 			content: '';
@@ -200,42 +202,41 @@ label{cursor: pointer;}
 		text-decoration: underline;
 		transition: color 0.3s ease;
 
-		&:hover{
+		&:hover {
 			color: $orange;
 		}
 	}
 }
 
-
-.g-recaptcha{
-	transform: translate3d(0,0,0);
+.g-recaptcha {
+	transform: translate3d(0, 0, 0);
 	margin-bottom: $pad-xs;
-	@include res(s){
+	@include res(s) {
 		margin-bottom: 15px;
 	}
-	@include res(xs){
+	@include res(xs) {
 		transform: scale(0.8);
 		transform-origin: left top;
 	}
-	&>div {
+	& > div {
 		margin: 0 auto;
 	}
-	&.error{
+	&.error {
 		animation: shake 0.15s 6 linear;
 	}
 }
 
 @keyframes shake {
-	0%{
-		transform: translate3d(0,0,0);
+	0% {
+		transform: translate3d(0, 0, 0);
 	}
-	33%{
-		transform: translate3d(10px,0,0);
+	33% {
+		transform: translate3d(10px, 0, 0);
 	}
-	66%{
-		transform: translate3d(-10px,0,0);
+	66% {
+		transform: translate3d(-10px, 0, 0);
 	}
-	100%{
-		transform: translate3d(0,0,0);
+	100% {
+		transform: translate3d(0, 0, 0);
 	}
 }
