@@ -3,12 +3,14 @@
  ***********************/
 // captcha
 var captchaString = "";
-grecaptcha.ready(function() {
-	grecaptcha.execute('6LdxvGgUAAAAAPgRwPtMm1yE2VjBka-o6kwGY54l')
-		.then(function(token) {
-			captchaString = token;
-		});
-});
+try {
+	grecaptcha.ready(function() {
+		grecaptcha.execute('6LdxvGgUAAAAAPgRwPtMm1yE2VjBka-o6kwGY54l')
+			.then(function(token) {
+				captchaString = token;
+			});
+	});
+} catch (e) { }
 // captcha
 
 $(function () {
@@ -399,6 +401,28 @@ $(function($){
 /***********************
 Calc BEGIN
 ***********************/
+function animateValue(id, start, end, duration) {
+	var obj = id;
+	var range = end - start;
+	var minTimer = 50;
+	var stepTime = Math.abs(Math.floor(duration / range));
+	stepTime = Math.max(stepTime, minTimer);
+	var startTime = new Date().getTime();
+	var endTime = startTime + duration;
+	var timer;
+	function run() {
+		var now = new Date().getTime();
+		var remaining = Math.max((endTime - now) / duration, 0);
+		var value = Math.round(end - (remaining * range));
+		obj.innerHTML = value;
+		if (value == end) {
+			clearInterval(timer);
+		}
+	}
+	timer = setInterval(run, stepTime);
+	run();
+}
+
 $(function($){
 	$(".calc-range-1").ionRangeSlider({
 		min: 0,
@@ -411,6 +435,10 @@ $(function($){
 			} else {
 				return num;
 			}
+		},
+		onFinish: function (data) {
+			console.log(data);
+			calc(data);
 		}
 	});
 	$(".calc-range-2").ionRangeSlider({
@@ -418,6 +446,23 @@ $(function($){
 		max: 540,
 		step: 1
 	});
+
+	var column1 = $('.column--1 .column__body');
+	var column2 = $('.column--2 .column__body');
+	var percent1 = document.getElementById('percent1');
+	var percent2 = document.getElementById('percent2');
+
+	function calc(data) {
+		var percent1From = percent1.innerText;
+		var percent2From = percent2.innerText;
+		animateValue(percent1, percent1From, Math.round(data.from_percent / 2), 600);
+		animateValue(percent2, percent2From, Math.round(data.from_percent), 600);
+
+		var column1Height = 360 / 100 * data.from_percent / 2;
+		var column2Height = 360 / 100 * data.from_percent;
+		column1.height(column1Height);
+		column2.height(column2Height);
+	}
 });
 /***********************
 Calc END

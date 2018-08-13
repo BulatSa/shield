@@ -130,14 +130,15 @@
 <section class="s-calc def-sec">
 	<div class="container">
 		<div class="row">
-			<div class="grid-6">
+
+			<div class="grid-6 grid-12_m">
 				<div class="sec-title sec-title--bigmargin">
 					<div class="uptext">Калькулятор chargeback</div>
 					<div class="h1">Узнайте вероятность <small>возврата ваших денег</small></div>
 				</div>
 
 				<div class="calc-step">
-					<strong>01.  Ваш брокер</strong>
+					<strong>01. Ваш брокер</strong>
 					<input type="text" class="input-text" placeholder="Название брокера">
 				</div>
 				<div class="calc-step">
@@ -149,7 +150,30 @@
 					<input type="text" class="calc-range-2" name="calc_2">
 				</div>
 			</div>
+
+			<div class="grid-6 grid-12_m calc-right">
+				<div class="column column--1">
+					<div class="column__head">
+						<strong><span id="percent1">0</span>%</strong>
+						<small>Самостоятельно</small>
+					</div>
+					<div class="column__body"></div>
+				</div>
+				<div class="column column--2">
+					<div class="column__head">
+						<strong><span id="percent2">0</span>%</strong>
+						<small>С помощью нас</small>
+					</div>
+					<div class="column__body"></div>
+				</div>
+			</div>
+
 		</div>
+
+		<div class="s-calc__bottom">
+			<button class="btn btn--orange fancy-modal" data-src="#modal-consult">Получите детальную консультацию</button>
+		</div>
+
 	</div>
 </section>
 
