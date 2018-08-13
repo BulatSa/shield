@@ -64,6 +64,101 @@
 </section>
 
 
+<section class="garant-base-sec def-sec">
+	<div class="garant-base container">
+		<div class="row">
+			<div class="grid-5 grid-6_l grid-12_s">
+				<div class="garant-base__info">
+					<div class="sec-title">
+						<div class="h1">Собственная база<small>брокеров</small></div>
+					</div>
+					<div class="user-content">
+						<p class="text-big">В течение 5 лет мы пытались вернуть средства клиентов от десятка недобросовестных брокеров. Каждый из них попал в нашу собственную базу.<br>Теперь вы можете проверить своего брокера на надежность или внести его в наш список, если он присвоил ваши средства незаконным способом и скрывается от преследования.</p>
+						<br>
+						<div class="info-block">
+							Помните, чем раньше начнется процедура возврата, тем выше шансы получить назад свои деньги.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="grid-7 grid-6_l grid-12_s">
+				<div class="garant-base__list">
+					<div class="garant-base__item">
+						<img src="img/partner-slider/logo-1.jpg" alt="">
+					</div>
+					<div class="garant-base__item">
+						<img src="img/partner-slider/logo-2.jpg" alt="">
+					</div>
+					<div class="garant-base__item">
+						<img src="img/partner-slider/logo-3.jpg" alt="">
+					</div>
+					<div class="garant-base__item">
+						<img src="img/partner-slider/logo-1.jpg" alt="">
+					</div>
+
+					<div class="garant-base__item">
+						<img src="img/partner-slider/logo-3.jpg" alt="">
+					</div>
+					<div class="garant-base__item">
+						<img src="img/partner-slider/logo-1.jpg" alt="">
+					</div>
+					<div class="garant-base__item">
+						<img src="img/partner-slider/logo-3.jpg" alt="">
+					</div>
+					<div class="garant-base__item">
+						<img src="img/partner-slider/logo-2.jpg" alt="">
+					</div>
+
+					<div class="garant-base__item">
+						<img src="img/partner-slider/logo-1.jpg" alt="">
+					</div>
+					<div class="garant-base__item">
+						<img src="img/partner-slider/logo-3.jpg" alt="">
+					</div>
+					<div class="garant-base__item">
+						<img src="img/partner-slider/logo-2.jpg" alt="">
+					</div>
+					<div class="garant-base__item">
+						<img src="img/partner-slider/logo-1.jpg" alt="">
+					</div>
+					<div class="garant-base__more-wrap">
+						<div class="garant-base__list">
+							<div class="garant-base__item">
+								<img src="img/partner-slider/logo-1.jpg" alt="">
+							</div>
+							<div class="garant-base__item">
+								<img src="img/partner-slider/logo-3.jpg" alt="">
+							</div>
+							<div class="garant-base__item">
+								<img src="img/partner-slider/logo-2.jpg" alt="">
+							</div>
+							<div class="garant-base__item">
+								<img src="img/partner-slider/logo-1.jpg" alt="">
+							</div>
+							<div class="garant-base__item">
+								<img src="img/partner-slider/logo-1.jpg" alt="">
+							</div>
+							<div class="garant-base__item">
+								<img src="img/partner-slider/logo-2.jpg" alt="">
+							</div>
+							<div class="garant-base__item">
+								<img src="img/partner-slider/logo-3.jpg" alt="">
+							</div>
+							<div class="garant-base__item">
+								<img src="img/partner-slider/logo-1.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="garant-base__more">
+					<a href="#">Посмотреть всех брокеров</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <section class="check-bro-sec def-sec">
 	<div class="check-bro container">
 		<div class="check-bro__info">

@@ -467,3 +467,28 @@ $(function($){
 /***********************
 Calc END
 ***********************/
+
+
+/***********************
+ Garant Base BEGIN
+ ***********************/
+$(function($){
+	if($('.garant-base__more').length) {
+		$('.garant-base__more-wrap').slideUp();
+
+		var caseBtnText = $('.garant-base__more a').text();
+		$('.garant-base__more a').on('click', function (e) {
+			e.preventDefault();
+			$('.garant-base__more-wrap').slideToggle();
+			$(this).toggleClass('open');
+			if($(this).hasClass('open')) {
+				$(this).text('Скрыть брокеров');
+			} else {
+				$(this).text(caseBtnText);
+			}
+		})
+	}
+});
+/***********************
+ Garant Base END
+ ***********************/
