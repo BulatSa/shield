@@ -1,12 +1,44 @@
-.s-calc{
-	background-color: $purple;
+.s-calc {
+	background: url("../img/numbers-blue.png") center top repeat $purple;
 	color: #FFF;
+
+	.input-text {
+
+		&:hover {
+			border-color: $orange;
+		}
+		&:focus {
+			border-color: $orange;
+			box-shadow: 0 0 0 1px $orange;
+		}
+	}
+
+	&__bottom {
+		text-align: center;
+		padding-top: $pad-l;
+		@include res(xs) {
+			padding-top: $pad-s;
+		}
+
+		.btn {
+			@include res(xs) {
+				white-space: normal;
+				line-height: 1;
+				height: auto;
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+		}
+	}
 }
 
-.calc-step{
+.calc-step {
 	margin-bottom: $pad-m;
+	&:last-child {
+		margin-bottom: 0;
+	}
 
-	strong{
+	strong {
 		display: block;
 		font-weight: bold;
 		line-height: 1.2;
@@ -14,41 +46,44 @@
 	}
 }
 
-
 //irs
-.irs-line{
+.irs-line {
 	height: 6px;
 	border: none;
 	border-radius: 3px;
 }
-.irs-line-left,.irs-line-mid,.irs-line-right{
+
+.irs-line-left, .irs-line-mid, .irs-line-right {
 	display: none;
 }
-.irs-bar{
-	height: 6px;
-	background: $orange;
-	border: none;
-}
-.irs-bar-edge{
+
+.irs-bar {
 	height: 6px;
 	background: $orange;
 	border: none;
 }
 
-.irs-min, .irs-max{
+.irs-bar-edge {
+	height: 6px;
+	background: $orange;
+	border: none;
+}
+
+.irs-min, .irs-max {
 	color: #FFF;
 	font-size: 16px;
 	background: none;
 	padding: 0;
 }
-.irs-single{
+
+.irs-single {
 	color: $orange;
 	background: none;
 	font-size: 16px;
 	line-height: 1;
 }
 
-.irs-slider{
+.irs-slider {
 	top: 38px;
 	background: none !important;
 	border-radius: 0;
@@ -59,8 +94,92 @@
 	border-color: transparent transparent $orange transparent;
 	transition: border-color 0.3s ease;
 
-	&:hover{
+	&:hover {
 		border-color: transparent transparent #FFF transparent;
 	}
 }
+
 //irs
+
+//columns
+.calc-right {
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	@include res(m) {
+		padding-top: $pad-l;
+		justify-content: center;
+	}
+	@include res(xs) {
+		padding-top: $pad-m;
+	}
+
+	&:before {
+		content: '';
+		width: 0;
+		height: 0;
+		border-radius: 50%;
+		background: $blue;
+		position: absolute;
+		right: 200px;
+		bottom: 100px;
+		box-shadow: 0 0 300px 150px transparentize(#1f80f1, 0.2);
+		z-index: 1;
+		@include res(m) {
+			display: none;
+		}
+	}
+}
+
+.column {
+	position: relative;
+	z-index: 2;
+	padding: 0 20px;
+	width: 200px;
+	text-align: center;
+	@include res(xs) {
+		padding: 0 10px;
+	}
+
+	&__head {
+		text-align: center;
+		margin-bottom: 40px;
+		@include res(m) {
+			margin-bottom: 0;
+		}
+		strong {
+			display: block;
+			font-size: 60px;
+			font-weight: bold;
+			line-height: 1;
+			@include res(xs) {
+				font-size: 42px;
+			}
+		}
+		small {
+			font-size: 14px;
+			font-weight: bold;
+			text-transform: uppercase;
+			@include res(xs) {
+				font-size: 12px;
+			}
+		}
+	}
+
+	&__body {
+		display: inline-block;
+		width: 150px;
+		max-height: 360px;
+		min-height: 5px;
+		height: 10px;
+		background-color: #1eddff;
+		background: linear-gradient(to top, #2e54d5 0%, #1eddff 80%);
+		transition: height 0.8s cubic-bezier(0.68, -1, 0.4, 1.9);
+		@include res(m) {
+			display: none;
+		}
+	}
+}
+
+//columns

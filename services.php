@@ -8,7 +8,7 @@
 				<p>Более 5-ти лет мы помогаем нашим клиентам возвращать свои деньги благодаря процедуре chargeback. Накопленный опыт позволил нам разработать собственные сервисы, которые упрощают подготовку к самому процессу возврата денежных средств.</p>
 				<div class="big-head__actions">
 					<a href="/broker-check.php" class="btn btn--orange">Проверка брокера</a>
-					<a href="#" class="link scrollto">Калькулятор возврата</a>
+					<a href="#calc" class="link scrollto">Калькулятор возврата</a>
 					<a href="#tariffs" class="link scrollto">Тарифы</a>
 				</div>
 			</div>
@@ -66,6 +66,57 @@
 				<main>Мы всегда работаем только по договору с гарантией возврата средств. Если вас не устроит качество наших услуг, в течение 10 дней после обращения в нашу компанию вы можете расторгнуть договор и забрать свои деньги назад в полном объеме.</main>
 			</div>
 		</div>
+	</div>
+</section>
+
+
+<section class="s-calc def-sec" id="calc">
+	<div class="container">
+		<div class="row">
+
+			<div class="grid-6 grid-12_m">
+				<div class="sec-title sec-title--bigmargin">
+					<div class="uptext">Калькулятор chargeback</div>
+					<div class="h1">Узнайте вероятность <small>возврата ваших денег</small></div>
+				</div>
+
+				<div class="calc-step">
+					<strong>01. Ваш брокер</strong>
+					<input type="text" class="input-text" placeholder="Название брокера">
+				</div>
+				<div class="calc-step">
+					<strong>02. Сумма потерянного депозита, <span class="rub">c</span></strong>
+					<input type="text" class="calc-range-1" name="calc_1">
+				</div>
+				<div class="calc-step">
+					<strong>03. Время с момента перевода денег на счет, дней</strong>
+					<input type="text" class="calc-range-2" name="calc_2">
+				</div>
+			</div>
+
+			<div class="grid-6 grid-12_m calc-right">
+				<div class="column column--1">
+					<div class="column__head">
+						<strong><span id="percent1">0</span>%</strong>
+						<small>Самостоятельно</small>
+					</div>
+					<div class="column__body"></div>
+				</div>
+				<div class="column column--2">
+					<div class="column__head">
+						<strong><span id="percent2">0</span>%</strong>
+						<small>С помощью нас</small>
+					</div>
+					<div class="column__body"></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="s-calc__bottom">
+			<button class="btn btn--orange fancy-modal" data-src="#modal-consult">Получите детальную консультацию</button>
+		</div>
+
 	</div>
 </section>
 
