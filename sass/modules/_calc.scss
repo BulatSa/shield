@@ -13,15 +13,15 @@
 		}
 	}
 
-	&__bottom{
+	&__bottom {
 		text-align: center;
 		padding-top: $pad-l;
-		@include res(xs){
+		@include res(xs) {
 			padding-top: $pad-s;
 		}
 
-		.btn{
-			@include res(xs){
+		.btn {
+			@include res(xs) {
 				white-space: normal;
 				line-height: 1;
 				height: auto;
@@ -107,26 +107,26 @@
 	display: flex;
 	align-items: flex-end;
 	justify-content: flex-end;
-	@include res(m){
+	@include res(m) {
 		padding-top: $pad-l;
 		justify-content: center;
 	}
-	@include res(xs){
+	@include res(xs) {
 		padding-top: $pad-m;
 	}
 
-	&:before{
+	&:before {
 		content: '';
-		width: 0px;
-		height: 0px;
+		width: 0;
+		height: 0;
 		border-radius: 50%;
 		background: $blue;
 		position: absolute;
 		right: 200px;
 		bottom: 100px;
-		box-shadow: 0 0 300px 150px transparentize(#1f80f1,0.2);
+		box-shadow: 0 0 300px 150px transparentize(#1f80f1, 0.2);
 		z-index: 1;
-		@include res(m){
+		@include res(m) {
 			display: none;
 		}
 	}
@@ -138,14 +138,14 @@
 	padding: 0 20px;
 	width: 200px;
 	text-align: center;
-	@include res(xs){
+	@include res(xs) {
 		padding: 0 10px;
 	}
 
 	&__head {
 		text-align: center;
 		margin-bottom: 40px;
-		@include res(m){
+		@include res(m) {
 			margin-bottom: 0;
 		}
 		strong {
@@ -153,7 +153,7 @@
 			font-size: 60px;
 			font-weight: bold;
 			line-height: 1;
-			@include res(xs){
+			@include res(xs) {
 				font-size: 42px;
 			}
 		}
@@ -161,13 +161,13 @@
 			font-size: 14px;
 			font-weight: bold;
 			text-transform: uppercase;
-			@include res(xs){
+			@include res(xs) {
 				font-size: 12px;
 			}
 		}
 	}
 
-	&__body{
+	&__body {
 		display: inline-block;
 		width: 150px;
 		max-height: 360px;
@@ -176,7 +176,7 @@
 		background-color: #1eddff;
 		background: linear-gradient(to top, #2e54d5 0%, #1eddff 80%);
 		transition: height 0.8s cubic-bezier(0.68, -1, 0.4, 1.9);
-		@include res(m){
+		@include res(m) {
 			display: none;
 		}
 	}
