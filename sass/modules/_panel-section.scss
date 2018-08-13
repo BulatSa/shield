@@ -99,5 +99,8 @@
 
 	&__text{
 		margin-bottom: $pad-xs;
+		&:last-child {
+			margin-bottom: 5px;
+		}
 	}
 }

@@ -1,0 +1,40 @@
+.check-bro-sec {
+	min-height: 475px;
+	background: url("../img/garant/bg-check-bro.jpg") no-repeat center bottom;
+	@include res(xl) {
+		min-height: 380px;
+		background-size: cover;
+	}
+	@include res(l) {
+		min-height: 320px;
+	}
+	@include res(s) {
+		min-height: initial;
+		background: url("../img/garant/bg-check-bro-mobile.jpg") no-repeat center bottom;
+	}
+}
+
+.check-bro {}
+
+.check-bro__info {
+	max-width: 670px;
+	padding-top: $pad-s;
+	@include res(l) {
+		padding-top: $pad-xs;
+	}
+	@include res(s) {
+		padding-top: 0;
+	}
+	.h1 {
+		padding-bottom: $pad-xxs;
+		color: #fff;
+	}
+	.h4 {
+		display: block;
+		padding-bottom: $pad-m;
+		color: $orange;
+		@include res(s) {
+			padding-bottom: $pad-xs;
+		}
+	}
+}

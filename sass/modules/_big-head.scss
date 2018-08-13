@@ -80,6 +80,17 @@
 			}
 		}
 	}
+	&--garant {
+		.container {
+			background: none;
+			@include res(l){
+				background: linear-gradient(to right, #f9f9f9 340px, transparentize(#f9f9f9,1) 760px);
+			}
+			@include res(m) {
+				background: transparentize(#f9f9f9,0.1);
+			}
+		}
+	}
 }
 
 .big-head {

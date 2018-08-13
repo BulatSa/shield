@@ -1,0 +1,37 @@
+.garant-charge-sec {
+	min-height: 480px;
+	background: url("../img/garant/bg-charge.jpg") no-repeat center, #fff;
+	@include res(xl) {
+		min-height: 380px;
+		background-size: cover;
+	}
+	@include res(s) {
+		min-height: initial;
+		background: #fff;
+	}
+}
+
+.garant-charge {}
+
+.garant-charge__info {
+	max-width: 460px;
+	padding-top: $pad-xs;
+	@include res(m) {
+		max-width: 380px;
+	}
+	@include res(s) {
+		max-width: 100%;
+		padding-top: 0;
+	}
+	.h1 {
+		padding-bottom: $pad-s;
+		@include res(s) {
+			padding-bottom: $pad-xs;
+		}
+	}
+	img {
+		display: block;
+		max-width: 100%;
+		padding-bottom: $pad-xs;
+	}
+}
