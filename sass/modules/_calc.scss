@@ -1,0 +1,66 @@
+.s-calc{
+	background-color: $purple;
+	color: #FFF;
+}
+
+.calc-step{
+	margin-bottom: $pad-m;
+
+	strong{
+		display: block;
+		font-weight: bold;
+		line-height: 1.2;
+		margin-bottom: $pad-xxs;
+	}
+}
+
+
+//irs
+.irs-line{
+	height: 6px;
+	border: none;
+	border-radius: 3px;
+}
+.irs-line-left,.irs-line-mid,.irs-line-right{
+	display: none;
+}
+.irs-bar{
+	height: 6px;
+	background: $orange;
+	border: none;
+}
+.irs-bar-edge{
+	height: 6px;
+	background: $orange;
+	border: none;
+}
+
+.irs-min, .irs-max{
+	color: #FFF;
+	font-size: 16px;
+	background: none;
+	padding: 0;
+}
+.irs-single{
+	color: $orange;
+	background: none;
+	font-size: 16px;
+	line-height: 1;
+}
+
+.irs-slider{
+	top: 38px;
+	background: none !important;
+	border-radius: 0;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 12px 24px 12px;
+	border-color: transparent transparent $orange transparent;
+	transition: border-color 0.3s ease;
+
+	&:hover{
+		border-color: transparent transparent #FFF transparent;
+	}
+}
+//irs

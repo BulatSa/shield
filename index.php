@@ -127,6 +127,33 @@
 </section>
 
 
+<section class="s-calc def-sec">
+	<div class="container">
+		<div class="row">
+			<div class="grid-6">
+				<div class="sec-title sec-title--bigmargin">
+					<div class="uptext">Калькулятор chargeback</div>
+					<div class="h1">Узнайте вероятность <small>возврата ваших денег</small></div>
+				</div>
+
+				<div class="calc-step">
+					<strong>01.  Ваш брокер</strong>
+					<input type="text" class="input-text" placeholder="Название брокера">
+				</div>
+				<div class="calc-step">
+					<strong>02. Сумма потерянного депозита, <span class="rub">c</span></strong>
+					<input type="text" class="calc-range-1" name="calc_1">
+				</div>
+				<div class="calc-step">
+					<strong>03. Время с момента перевода денег на счет, дней</strong>
+					<input type="text" class="calc-range-2" name="calc_2">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <section class="s-tariff-list def-sec">
 	<div class="container">
 		<div class="sec-title sec-title--bigmargin">
