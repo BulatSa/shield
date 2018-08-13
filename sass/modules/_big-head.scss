@@ -53,6 +53,33 @@
 			padding-bottom: 50px;
 		}
 	}
+	&--thanks{
+		background-color: #FFF;
+		background-size: auto;
+		background-position: bottom center;
+		@include res(l){
+			background: none !important;
+		}
+		@include res(s){
+			padding-bottom: $pad-s;
+		}
+		.container{
+			background: none;
+		}
+		.big-head{
+			min-height: 600px;
+			@include res(l){
+				min-height: initial;
+			}
+		}
+		.info-block{
+			margin-bottom: $pad-m;
+			max-width: 490px;
+			@include res(l){
+				margin-bottom: $pad-s;
+			}
+		}
+	}
 }
 
 .big-head {

@@ -4,6 +4,8 @@
 
 @import 'vendors/fancybox';
 @import 'vendors/flickity';
+@import 'vendors/ion.rangeSlider';
+@import 'vendors/ion.rangeSlider.skinHTML5';
 
 @import 'base/reset';
 @import 'base/fonts';
@@ -40,6 +42,7 @@
 @import 'modules/partner-slider';
 @import 'modules/breadcrumbs';
 @import 'modules/charity';
+@import 'modules/calc';
 
 @import 'pages/home';
 @import 'pages/reviews';

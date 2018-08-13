@@ -394,3 +394,31 @@ $(function($){
 /***********************
  User-content END
  ***********************/
+
+
+/***********************
+Calc BEGIN
+***********************/
+$(function($){
+	$(".calc-range-1").ionRangeSlider({
+		min: 0,
+		max: 10000000,
+		prettify_separator: ".",
+		step: 10000,
+		prettify: function (num) {
+			if (num > 1000000){
+				return num / 1000000 + " млн.";
+			} else {
+				return num;
+			}
+		}
+	});
+	$(".calc-range-2").ionRangeSlider({
+		min: 0,
+		max: 540,
+		step: 1
+	});
+});
+/***********************
+Calc END
+***********************/
