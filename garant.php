@@ -53,6 +53,50 @@
 </section>
 
 
+<section class="garant-result-sec def-sec">
+	<div class="garant-result container">
+		<div class="sec-title sec-title--center">
+			<div class="h1">Опыт и практика гарантируют<small>успешный результат</small></div>
+		</div>
+		<div class="garant-result__info">
+			<div class="garant-result__col garant-result__col--1">
+				<div class="garant-result__text">
+					<p class="h3">2013 год — пионеры Сhargeback на российском рынке</p>
+					<div class="user-content">
+						<p>Мы одними из первых начали оказывать юридические услуги по возврату денежных средств. За это время наши специалисты помогли сотням людей по всему миру и добились наказания более 400 недобросовестных брокеров.</p>
+					</div>
+				</div>
+				<div class="garant-result__graphs anim">
+					<img src="img/garant-result/numb-1.png" alt="">
+					<div class="garant-result__graph garant-result__graph--1"><span>2013 год</span></div>
+					<div class="garant-result__graph garant-result__graph--2"></div>
+					<div class="garant-result__graph garant-result__graph--3"><span>2018 год</span></div>
+					<div class="garant-result__graph garant-result__graph--4"></div>
+					<div class="garant-result__graph garant-result__graph--5"><span>2030 год</span></div>
+				</div>
+			</div>
+
+			<div class="garant-result__col garant-result__col--2">
+				<div class="garant-result__text">
+					<p class="h3">91% <br>— успешных возвратов</p>
+					<div class="user-content">
+						<p>Вернули клиентам денежные средства на общую сумму свыше 100 млн рублей.</p>
+					</div>
+				</div>
+				<div class="garant-result__graphs anim">
+					<img src="img/garant-result/numb-2.png" alt="">
+					<div class="garant-result__graph garant-result__graph--1"><span>2013 год</span></div>
+					<div class="garant-result__graph garant-result__graph--2"></div>
+					<div class="garant-result__graph garant-result__graph--3"><span>2018 год</span></div>
+					<div class="garant-result__graph garant-result__graph--4"></div>
+					<div class="garant-result__graph garant-result__graph--5"><span>2030 год</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
 <section class="garant-charge-sec def-sec">
 	<div class="garant-charge container">
 		<div class="garant-charge__info">
